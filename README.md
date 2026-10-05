@@ -9,7 +9,7 @@
 [![Xray-core](https://img.shields.io/badge/ядро-Xray--core-f2f2f2?style=flat-square&labelColor=161616)](https://github.com/XTLS/Xray-core)
 [![Telegram](https://img.shields.io/badge/Telegram-@LimCoreChannel-f2f2f2?style=flat-square&logo=telegram&logoColor=white&labelColor=161616)](https://t.me/LimCoreChannel)
 
-[Скачать](#скачать) · [Возможности](#возможности) · [Проверка файлов](#проверка-файлов) · [Что нового](#что-нового)
+[Скачать](#скачать) · [Возможности](#возможности) · [Интерфейс](#интерфейс) · [Проверка файлов](#проверка-файлов) · [Что нового](#что-нового)
 
 </div>
 
@@ -87,6 +87,12 @@ https://github.com/user-attachments/assets/7b351e5d-6c08-4696-b1db-3b3bd3532587
     </td>
   </tr>
 </table>
+
+## Интерфейс
+
+<img src="media/windows.jpg" alt="LimCore для Windows: тёмная и светлая темы" width="100%" />
+
+<img src="media/settings-android.jpg" alt="Настройки LimCore для Windows и главный экран LimCore для Android" width="100%" />
 
 ## Проверка файлов
 
