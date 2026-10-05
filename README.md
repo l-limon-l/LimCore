@@ -12,6 +12,15 @@
 
 ---
 
+## 🎬 Ролик
+
+<div align="center">
+  <video src="https://github.com/l-limon-l/LimCore/raw/main/media/limcore-film.mp4" poster="https://github.com/l-limon-l/LimCore/raw/main/media/poster.jpg" controls muted width="100%"></video>
+  <p><sub>Если видео не загрузилось — <a href="https://github.com/l-limon-l/LimCore/raw/main/media/limcore-film.mp4">открыть файл напрямую</a></sub></p>
+</div>
+
+---
+
 ## ⬇️ Скачать
 
 <table align="center">
