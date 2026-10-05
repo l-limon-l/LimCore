@@ -26,7 +26,7 @@ const universal = apks[0];
 const mb = (bytes) => `${(bytes / 1048576).toFixed(1).replace('.', ',')} МБ`;
 const date = (iso) => iso.split('-').reverse().join('.');
 const badge = (label, message, logo) =>
-  `https://img.shields.io/badge/${esc(label)}-${esc(message)}-0d0d0d?style=for-the-badge&logo=${logo}&logoColor=white&labelColor=1f1f1f`;
+  `https://img.shields.io/badge/${esc(label)}-${esc(message)}-f2f2f2?style=for-the-badge&logo=${logo}&logoColor=white&labelColor=161616`;
 const esc = (s) => encodeURIComponent(s.replace(/-/g, '--').replace(/_/g, '__'));
 const notes = (n) => n.ru.split('\n').map((l) => l.trim()).filter(Boolean).join('\n');
 
