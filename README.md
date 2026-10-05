@@ -4,10 +4,10 @@
 
 ### Один стиль. Два устройства. Ваши серверы.
 
-[![Android](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fl-limon-l%2FLimCore-Android%2Fmain%2Fupdate.json&query=%24.versionName&label=Android&logo=android&logoColor=white&color=0d0d0d&labelColor=1f1f1f&style=flat-square)](#скачать)
-[![Windows](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fl-limon-l%2FLimCore-Desktop%2Fmain%2Fupdate.json&query=%24.version&label=Windows&logo=windows11&logoColor=white&color=0d0d0d&labelColor=1f1f1f&style=flat-square)](#скачать)
-[![Xray-core](https://img.shields.io/badge/ядро-Xray--core-0d0d0d?style=flat-square&labelColor=1f1f1f)](https://github.com/XTLS/Xray-core)
-[![Telegram](https://img.shields.io/badge/Telegram-@LimCoreChannel-0d0d0d?style=flat-square&logo=telegram&logoColor=white&labelColor=1f1f1f)](https://t.me/LimCoreChannel)
+[![Android](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fl-limon-l%2FLimCore-Android%2Fmain%2Fupdate.json&query=%24.versionName&label=Android&logo=android&logoColor=white&color=f2f2f2&labelColor=161616&style=flat-square)](#скачать)
+[![Windows](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fl-limon-l%2FLimCore-Desktop%2Fmain%2Fupdate.json&query=%24.version&label=Windows&logo=windows11&logoColor=white&color=f2f2f2&labelColor=161616&style=flat-square)](#скачать)
+[![Xray-core](https://img.shields.io/badge/ядро-Xray--core-f2f2f2?style=flat-square&labelColor=161616)](https://github.com/XTLS/Xray-core)
+[![Telegram](https://img.shields.io/badge/Telegram-@LimCoreChannel-f2f2f2?style=flat-square&logo=telegram&logoColor=white&labelColor=161616)](https://t.me/LimCoreChannel)
 
 [Скачать](#скачать) · [Возможности](#возможности) · [Проверка файлов](#проверка-файлов) · [Что нового](#что-нового)
 
@@ -22,12 +22,12 @@ https://github.com/user-attachments/assets/7b351e5d-6c08-4696-b1db-3b3bd3532587
   <tr>
     <td align="center" width="50%">
       <h3>Android</h3>
-      <a href="https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-universal.apk"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-APK-0d0d0d?style=for-the-badge&logo=android&logoColor=white&labelColor=1f1f1f" alt="Скачать APK для Android" /></a>
+      <a href="https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-universal.apk"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-APK-f2f2f2?style=for-the-badge&logo=android&logoColor=white&labelColor=161616" alt="Скачать APK для Android" /></a>
       <p><b>1.0.12</b> · 04.10.2026 · 46,5 МБ<br /><sub>Android 8.0 и новее</sub></p>
     </td>
     <td align="center" width="50%">
       <h3>Windows</h3>
-      <a href="https://github.com/l-limon-l/LimCore-Desktop/raw/main/installer/LimCore-Setup.exe"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Setup.exe-0d0d0d?style=for-the-badge&logo=windows11&logoColor=white&labelColor=1f1f1f" alt="Скачать установщик для Windows" /></a>
+      <a href="https://github.com/l-limon-l/LimCore-Desktop/raw/main/installer/LimCore-Setup.exe"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Setup.exe-f2f2f2?style=for-the-badge&logo=windows11&logoColor=white&labelColor=161616" alt="Скачать установщик для Windows" /></a>
       <p><b>2.2.0</b> · 04.10.2026 · 36,0 МБ<br /><sub>Установщик, обновляется сам</sub></p>
     </td>
   </tr>
