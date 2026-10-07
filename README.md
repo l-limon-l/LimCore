@@ -23,12 +23,12 @@ https://github.com/user-attachments/assets/7b351e5d-6c08-4696-b1db-3b3bd3532587
     <td align="center" width="50%">
       <h3>Android</h3>
       <a href="https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-universal.apk"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-APK-f2f2f2?style=for-the-badge&logo=android&logoColor=white&labelColor=161616" alt="Скачать APK для Android" /></a>
-      <p><b>1.0.12</b> · 04.10.2026 · 46,5 МБ<br /><sub>Android 8.0 и новее</sub></p>
+      <p><b>2.0.0</b> · 07.10.2026 · 46,6 МБ<br /><sub>Android 8.0 и новее</sub></p>
     </td>
     <td align="center" width="50%">
       <h3>Windows</h3>
       <a href="https://github.com/l-limon-l/LimCore-Desktop/raw/main/installer/LimCore-Setup.exe"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Setup.exe-f2f2f2?style=for-the-badge&logo=windows11&logoColor=white&labelColor=161616" alt="Скачать установщик для Windows" /></a>
-      <p><b>2.2.0</b> · 04.10.2026 · 36,0 МБ<br /><sub>Установщик, обновляется сам</sub></p>
+      <p><b>2.3.0</b> · 07.10.2026 · 36,1 МБ<br /><sub>Установщик, обновляется сам</sub></p>
     </td>
   </tr>
 </table>
@@ -40,10 +40,10 @@ https://github.com/user-attachments/assets/7b351e5d-6c08-4696-b1db-3b3bd3532587
 <!-- auto:abis -->
 | Сборка | Для каких устройств | Размер |
 |---|---|---|
-| [arm64-v8a](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-arm64-v8a.apk) | Почти все телефоны последних лет | 21,7 МБ |
-| [armeabi-v7a](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-armeabi-v7a.apk) | Старые 32-битные телефоны | 22,2 МБ |
-| [x86_64](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-x86_64.apk) | Эмуляторы и планшеты на x86 | 22,7 МБ |
-| [universal](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-universal.apk) | Любое устройство | 46,5 МБ |
+| [arm64-v8a](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-arm64-v8a.apk) | Почти все телефоны последних лет | 21,8 МБ |
+| [armeabi-v7a](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-armeabi-v7a.apk) | Старые 32-битные телефоны | 22,3 МБ |
+| [x86_64](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-x86_64.apk) | Эмуляторы и планшеты на x86 | 22,8 МБ |
+| [universal](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-universal.apk) | Любое устройство | 46,6 МБ |
 <!-- /auto:abis -->
 
 Не знаете, какая нужна, — берите **universal**, она работает везде.
@@ -101,11 +101,11 @@ https://github.com/user-attachments/assets/7b351e5d-6c08-4696-b1db-3b3bd3532587
 <!-- auto:hashes -->
 | Файл | SHA-256 | Проверка |
 |---|---|---|
-| `LimCore-Setup.exe` | <sub>`152bbe659e85cc1ea8798c892bbc3be08e921463d0224ec08835252751fa965c`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/152bbe659e85cc1ea8798c892bbc3be08e921463d0224ec08835252751fa965c) |
-| `LimCore-universal.apk` | <sub>`54cb02b4cbc6729659450cfae86969fff6e3152aa5f41f0c7140022d5bdb6665`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/54cb02b4cbc6729659450cfae86969fff6e3152aa5f41f0c7140022d5bdb6665) |
-| `LimCore-arm64-v8a.apk` | <sub>`acaaf3258cf795df580ad68cc61a47237aa3910cebf8e0bd90300835f643f22d`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/acaaf3258cf795df580ad68cc61a47237aa3910cebf8e0bd90300835f643f22d) |
-| `LimCore-armeabi-v7a.apk` | <sub>`b7a477681a7d6a24fc983bf0a45a2e481068230bfd34fc54214595a74d6c906a`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/b7a477681a7d6a24fc983bf0a45a2e481068230bfd34fc54214595a74d6c906a) |
-| `LimCore-x86_64.apk` | <sub>`aab040b745edfba605db4b379676cfbfb5c6c904688bf3b4e6b2b5b1efe81216`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/aab040b745edfba605db4b379676cfbfb5c6c904688bf3b4e6b2b5b1efe81216) |
+| `LimCore-Setup.exe` | <sub>`d8bdc9c78b35b9f258fe9156274852a5734dbb5fe10106af201bff0e32351989`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/d8bdc9c78b35b9f258fe9156274852a5734dbb5fe10106af201bff0e32351989) |
+| `LimCore-universal.apk` | <sub>`d021b5e5c12e34d573c399076ddf103ebabef22d1d75394513fa5fe5af5967af`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/d021b5e5c12e34d573c399076ddf103ebabef22d1d75394513fa5fe5af5967af) |
+| `LimCore-arm64-v8a.apk` | <sub>`c584961726040981f16c88c10e967d26383dd0ac027ac23be3f7bcb8c16fd157`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/c584961726040981f16c88c10e967d26383dd0ac027ac23be3f7bcb8c16fd157) |
+| `LimCore-armeabi-v7a.apk` | <sub>`1c24a1e1f19e5ef987b86819b5c84817292c6687e7964f33b0122f3a071568b5`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/1c24a1e1f19e5ef987b86819b5c84817292c6687e7964f33b0122f3a071568b5) |
+| `LimCore-x86_64.apk` | <sub>`dda8f86678eafbee479f936b4adf125a7482b63b028cd2d68e3c8460168e6145`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/dda8f86678eafbee479f936b4adf125a7482b63b028cd2d68e3c8460168e6145) |
 <!-- /auto:hashes -->
 
 ```powershell
@@ -121,16 +121,18 @@ sha256sum LimCore-universal.apk                      # Linux, macOS, Termux
 ## Что нового
 
 <!-- auto:changes -->
-**Android 1.0.12** · 04.10.2026
+**Android 2.0.0** · 07.10.2026
 
-- Подключение перезапускается автоматически после изменения настроек.
-- Изменения раздельного туннелирования, исключённых маршрутов, MTU и IPv6 применяются к активному подключению.
+- Добавлена настройка цветов для светлой и тёмной темы по отдельности.
+- Добавлены готовые палитры, свой акцент и цвета обоев.
+- Добавлены градиенты: миксы двух цветов, градиент кнопки подключения и фона.
+- Любой цвет интерфейса меняется вручную.
+- Добавлены экспорт и импорт цветов.
 
-**Windows 2.2.0** · 04.10.2026
+**Windows 2.3.0** · 07.10.2026
 
-- Обновления устанавливаются автоматически.
-- После обновления подключение восстанавливается.
-- Новая рамка окна в стиле приложения.
+- Добавлена настройка цветов: палитры, градиенты и отдельные цвета для тёмной и светлой темы.
+- Палитры импортируются и экспортируются через буфер обмена.
 <!-- /auto:changes -->
 
 Полная история: [Android](https://github.com/l-limon-l/LimCore-Android/blob/main/CHANGELOG.md) · [Windows](https://github.com/l-limon-l/LimCore-Desktop/blob/main/CHANGELOG.md)
