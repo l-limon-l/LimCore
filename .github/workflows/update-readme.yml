@@ -33,3 +33,16 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -am "README: обновить версии и хеши"
           git push
+
+  # Новые APK и установщик уходят на VirusTotal, чтобы ссылки в таблице хешей вели на отчёт.
+  # Ключ в секрете VT_API_KEY; скрипт держится в лимитах бесплатного ключа.
+  virustotal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/virustotal.mjs
+        env:
+          VT_API_KEY: ${{ secrets.VT_API_KEY }}
