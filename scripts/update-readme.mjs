@@ -27,6 +27,14 @@ const appimage = {
   size: linux.size,
   sha256: linux.sha256,
 };
+// .deb и .rpm появились с Linux 2.4.6; в старом update.json их нет.
+const linuxPackages = Object.entries(linux.packages || {}).map(([kind, p]) => ({
+  kind,
+  name: `LimCore-x86_64.${kind}`,
+  url: `${DL}/LimCore-Linux/raw/main/${p.file}`,
+  size: p.size,
+  sha256: p.sha256,
+}));
 const apks = ['universal', 'arm64-v8a', 'armeabi-v7a', 'x86_64'].map(apk);
 const universal = apks[0];
 
@@ -54,7 +62,7 @@ const blocks = {
     <td align="center" width="33%">
       <h3>Linux · Steam Deck</h3>
       <a href="${appimage.url}"><img src="${badge('Скачать', 'AppImage', 'linux')}" alt="Скачать AppImage для Linux и Steam Deck" /></a>
-      <p><b>${linux.version}</b> · ${date(linux.date)} · ${mb(appimage.size)}<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub></p>
+      <p><b>${linux.version}</b> · ${date(linux.date)} · ${mb(appimage.size)}<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub>${linuxPackages.length ? `<br /><sub>Пакеты: ${linuxPackages.map((p) => `<a href="${p.url}">.${p.kind}</a>`).join(' · ')}</sub>` : ''}</p>
     </td>
   </tr>
 </table>
@@ -83,7 +91,7 @@ ${notes(linux.notes)}
   hashes: `
 | Файл | SHA-256 | Проверка |
 |---|---|---|
-${[exe, appimage, ...apks].map((f) => `| \`${f.name}\` | <sub>\`${f.sha256}\`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/${f.sha256}) |`).join('\n')}
+${[exe, appimage, ...linuxPackages, ...apks].map((f) => `| \`${f.name}\` | <sub>\`${f.sha256}\`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/${f.sha256}) |`).join('\n')}
 `,
 };
 

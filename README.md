@@ -34,7 +34,7 @@ https://github.com/user-attachments/assets/7b351e5d-6c08-4696-b1db-3b3bd3532587
     <td align="center" width="33%">
       <h3>Linux · Steam Deck</h3>
       <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/appimage/LimCore-x86_64.AppImage"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-AppImage-f2f2f2?style=for-the-badge&logo=linux&logoColor=white&labelColor=161616" alt="Скачать AppImage для Linux и Steam Deck" /></a>
-      <p><b>2.4.6</b> · 08.10.2026 · 72,2 МБ<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub></p>
+      <p><b>2.4.6</b> · 08.10.2026 · 72,2 МБ<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/deb/LimCore-x86_64.deb">.deb</a> · <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/rpm/LimCore-x86_64.rpm">.rpm</a></sub></p>
     </td>
   </tr>
 </table>
@@ -58,6 +58,7 @@ https://github.com/user-attachments/assets/7b351e5d-6c08-4696-b1db-3b3bd3532587
 
 **Установка на Android:** скачайте APK, откройте его и разрешите установку из этого источника, если телефон спросит.
 **Установка на Linux и Steam Deck:** скачайте AppImage, разрешите его запуск (Свойства → Права → Исполняемый) и откройте: запустится установщик. На Steam Deck установка идёт в режиме рабочего стола; для службы TUN нужен пароль пользователя, его задают в Konsole командой `passwd`. После установки LimCore появляется в библиотеке Steam и работает в игровом режиме.
+**Пакеты .deb и .rpm:** для Debian, Ubuntu и Linux Mint — `sudo apt install ./LimCore-x86_64.deb`, для Fedora и openSUSE — `sudo dnf install ./LimCore-x86_64.rpm` (или `zypper`). Служба TUN настраивается при установке пакета.
 **Обновления:** все приложения сами проверяют новые версии, скачивать заново вручную не нужно.
 
 ## Возможности
@@ -110,6 +111,8 @@ https://github.com/user-attachments/assets/7b351e5d-6c08-4696-b1db-3b3bd3532587
 |---|---|---|
 | `LimCore-Setup.exe` | <sub>`6c28893acd168af184eed8c81438770051f272bea819760554ef78240b67ee60`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/6c28893acd168af184eed8c81438770051f272bea819760554ef78240b67ee60) |
 | `LimCore-x86_64.AppImage` | <sub>`172c1fd742d8cab119bbe4b42157f644cfc1ffb78cd86bdcd355b9b799702e15`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/172c1fd742d8cab119bbe4b42157f644cfc1ffb78cd86bdcd355b9b799702e15) |
+| `LimCore-x86_64.deb` | <sub>`72aa016eb7813a049aa98026cabf7fa7c9ab0911485fb13e634e2c4982fe5411`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/72aa016eb7813a049aa98026cabf7fa7c9ab0911485fb13e634e2c4982fe5411) |
+| `LimCore-x86_64.rpm` | <sub>`1b8d916359f483a515e737dfb60ac5719bb226b7b44742da3058832a29677ae0`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/1b8d916359f483a515e737dfb60ac5719bb226b7b44742da3058832a29677ae0) |
 | `LimCore-universal.apk` | <sub>`ae409b3339f4b234464e5e6c600c92a3e4ed1dfe512a1a88cf5f0cfde5b50379`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/ae409b3339f4b234464e5e6c600c92a3e4ed1dfe512a1a88cf5f0cfde5b50379) |
 | `LimCore-arm64-v8a.apk` | <sub>`30f7112a7b05122c585b2f9f9d0675d04835a859489938f8a63ac653cfc9f023`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/30f7112a7b05122c585b2f9f9d0675d04835a859489938f8a63ac653cfc9f023) |
 | `LimCore-armeabi-v7a.apk` | <sub>`fd6297e8e71d4feac8e737b1b2ecccb5d42f9b72b71acd5a3dbb28354eb5bdf5`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/fd6297e8e71d4feac8e737b1b2ecccb5d42f9b72b71acd5a3dbb28354eb5bdf5) |
@@ -121,7 +124,7 @@ Get-FileHash .\LimCore-Setup.exe -Algorithm SHA256   # Windows
 ```
 
 ```bash
-sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux
+sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (так же .deb и .rpm)
 ```
 
 Таблица обновляется автоматически из `update.json` приложений: [Android](https://github.com/l-limon-l/LimCore-Android/blob/main/update.json) · [Windows](https://github.com/l-limon-l/LimCore-Desktop/blob/main/update.json) · [Linux](https://github.com/l-limon-l/LimCore-Linux/blob/main/update.json).
