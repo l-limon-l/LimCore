@@ -81,7 +81,9 @@ await writeFile('README.md', readme);
 console.log(`Android ${android.versionName}, Windows ${windows.version}`);
 
 async function getJson(url) {
-  const res = await fetch(url, { cache: 'no-store' });
+  // raw.githubusercontent.com кэширует файлы до 5 минут; запрос с меткой времени идёт мимо кэша,
+  // поэтому запуск сразу после релиза видит новый update.json.
+  const res = await fetch(`${url}?t=${Date.now()}`, { cache: 'no-store' });
   if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
   return res.json();
 }
