@@ -7,6 +7,7 @@ const DL = 'https://github.com/l-limon-l';
 
 const android = await getJson(`${RAW}/LimCore-Android/main/update.json`);
 const windows = await getJson(`${RAW}/LimCore-Desktop/main/update.json`);
+const linux = await getJson(`${RAW}/LimCore-Linux/main/update.json`);
 
 const apk = (abi) => ({
   name: `LimCore-${abi}.apk`,
@@ -19,6 +20,12 @@ const exe = {
   url: `${DL}/LimCore-Desktop/raw/main/${windows.file}`,
   size: windows.size,
   sha256: windows.sha256,
+};
+const appimage = {
+  name: 'LimCore-x86_64.AppImage',
+  url: `${DL}/LimCore-Linux/raw/main/${linux.file}`,
+  size: linux.size,
+  sha256: linux.sha256,
 };
 const apks = ['universal', 'arm64-v8a', 'armeabi-v7a', 'x86_64'].map(apk);
 const universal = apks[0];
@@ -34,15 +41,20 @@ const blocks = {
   download: `
 <table>
   <tr>
-    <td align="center" width="50%">
+    <td align="center" width="33%">
       <h3>Android</h3>
       <a href="${universal.url}"><img src="${badge('Скачать', 'APK', 'android')}" alt="Скачать APK для Android" /></a>
       <p><b>${android.versionName}</b> · ${date(android.date)} · ${mb(universal.size)}<br /><sub>Android 8.0 и новее</sub></p>
     </td>
-    <td align="center" width="50%">
+    <td align="center" width="33%">
       <h3>Windows</h3>
       <a href="${exe.url}"><img src="${badge('Скачать', 'Setup.exe', 'windows11')}" alt="Скачать установщик для Windows" /></a>
       <p><b>${windows.version}</b> · ${date(windows.date)} · ${mb(exe.size)}<br /><sub>Установщик, обновляется сам</sub></p>
+    </td>
+    <td align="center" width="33%">
+      <h3>Linux · Steam Deck</h3>
+      <a href="${appimage.url}"><img src="${badge('Скачать', 'AppImage', 'linux')}" alt="Скачать AppImage для Linux и Steam Deck" /></a>
+      <p><b>${linux.version}</b> · ${date(linux.date)} · ${mb(appimage.size)}<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub></p>
     </td>
   </tr>
 </table>
@@ -63,11 +75,15 @@ ${notes(android.notes)}
 **Windows ${windows.version}** · ${date(windows.date)}
 
 ${notes(windows.notes)}
+
+**Linux ${linux.version}** · ${date(linux.date)}
+
+${notes(linux.notes)}
 `,
   hashes: `
 | Файл | SHA-256 | Проверка |
 |---|---|---|
-${[exe, ...apks].map((f) => `| \`${f.name}\` | <sub>\`${f.sha256}\`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/${f.sha256}) |`).join('\n')}
+${[exe, appimage, ...apks].map((f) => `| \`${f.name}\` | <sub>\`${f.sha256}\`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/${f.sha256}) |`).join('\n')}
 `,
 };
 
@@ -78,7 +94,7 @@ for (const [name, body] of Object.entries(blocks)) {
   readme = readme.replace(re, `$1${body}$2`);
 }
 await writeFile('README.md', readme);
-console.log(`Android ${android.versionName}, Windows ${windows.version}`);
+console.log(`Android ${android.versionName}, Windows ${windows.version}, Linux ${linux.version}`);
 
 async function getJson(url) {
   // raw.githubusercontent.com кэширует файлы до 5 минут; запрос с меткой времени идёт мимо кэша,
