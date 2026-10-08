@@ -23,7 +23,7 @@ https://github.com/user-attachments/assets/7b351e5d-6c08-4696-b1db-3b3bd3532587
     <td align="center" width="50%">
       <h3>Android</h3>
       <a href="https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-universal.apk"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-APK-f2f2f2?style=for-the-badge&logo=android&logoColor=white&labelColor=161616" alt="Скачать APK для Android" /></a>
-      <p><b>2.1.2</b> · 08.10.2026 · 46,6 МБ<br /><sub>Android 8.0 и новее</sub></p>
+      <p><b>2.1.3</b> · 08.10.2026 · 46,6 МБ<br /><sub>Android 8.0 и новее</sub></p>
     </td>
     <td align="center" width="50%">
       <h3>Windows</h3>
@@ -102,10 +102,10 @@ https://github.com/user-attachments/assets/7b351e5d-6c08-4696-b1db-3b3bd3532587
 | Файл | SHA-256 | Проверка |
 |---|---|---|
 | `LimCore-Setup.exe` | <sub>`649167057207c28a1d96988e54f487e66c3c89a788df2d757fe3500af057fd93`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/649167057207c28a1d96988e54f487e66c3c89a788df2d757fe3500af057fd93) |
-| `LimCore-universal.apk` | <sub>`566a5221b0ea417424bf61de80da1115dc704cab0aad34a8d0c31a14f3b831e9`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/566a5221b0ea417424bf61de80da1115dc704cab0aad34a8d0c31a14f3b831e9) |
-| `LimCore-arm64-v8a.apk` | <sub>`9e42543ef98eff7039ff6282d30182c701b048c51b9ad4b45085ff882ba88578`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/9e42543ef98eff7039ff6282d30182c701b048c51b9ad4b45085ff882ba88578) |
-| `LimCore-armeabi-v7a.apk` | <sub>`623fd172a1682df9e444d44d5a1c936b30a3b3fc165bc9e3c1d5c9934d74d3ff`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/623fd172a1682df9e444d44d5a1c936b30a3b3fc165bc9e3c1d5c9934d74d3ff) |
-| `LimCore-x86_64.apk` | <sub>`ffc418c8ac14b111b45777e753c4b49547b4268a06fa8c1397cdc649862c679d`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/ffc418c8ac14b111b45777e753c4b49547b4268a06fa8c1397cdc649862c679d) |
+| `LimCore-universal.apk` | <sub>`ae409b3339f4b234464e5e6c600c92a3e4ed1dfe512a1a88cf5f0cfde5b50379`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/ae409b3339f4b234464e5e6c600c92a3e4ed1dfe512a1a88cf5f0cfde5b50379) |
+| `LimCore-arm64-v8a.apk` | <sub>`30f7112a7b05122c585b2f9f9d0675d04835a859489938f8a63ac653cfc9f023`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/30f7112a7b05122c585b2f9f9d0675d04835a859489938f8a63ac653cfc9f023) |
+| `LimCore-armeabi-v7a.apk` | <sub>`fd6297e8e71d4feac8e737b1b2ecccb5d42f9b72b71acd5a3dbb28354eb5bdf5`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/fd6297e8e71d4feac8e737b1b2ecccb5d42f9b72b71acd5a3dbb28354eb5bdf5) |
+| `LimCore-x86_64.apk` | <sub>`fd8578fee48d671c86108a4504f5214b0b1101ff95ce4e9fb36adf554e1d0327`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/fd8578fee48d671c86108a4504f5214b0b1101ff95ce4e9fb36adf554e1d0327) |
 <!-- /auto:hashes -->
 
 ```powershell
@@ -121,9 +121,9 @@ sha256sum LimCore-universal.apk                      # Linux, macOS, Termux
 ## Что нового
 
 <!-- auto:changes -->
-**Android 2.1.2** · 08.10.2026
+**Android 2.1.3** · 08.10.2026
 
-- Кнопка «Скрыть все» перенесена в иконку под «+».
+- Обновлены внутренние компоненты.
 
 **Windows 2.4.3** · 08.10.2026
 
