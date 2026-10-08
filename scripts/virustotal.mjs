@@ -19,8 +19,10 @@ const DIRECT_LIMIT = 32 * 1024 * 1024;
 
 const android = await getJson(`${RAW}/LimCore-Android/main/update.json`);
 const windows = await getJson(`${RAW}/LimCore-Desktop/main/update.json`);
+const linux = await getJson(`${RAW}/LimCore-Linux/main/update.json`);
 const files = [
   { name: 'LimCore-Setup.exe', url: `${RAW}/LimCore-Desktop/main/${windows.file}`, sha256: windows.sha256 },
+  { name: 'LimCore-x86_64.AppImage', url: `${RAW}/LimCore-Linux/main/${linux.file}`, sha256: linux.sha256 },
   ...['universal', 'arm64-v8a', 'armeabi-v7a', 'x86_64'].map((abi) => ({
     name: `LimCore-${abi}.apk`,
     url: `${RAW}/LimCore-Android/main/${android.apks[abi].file}`,
