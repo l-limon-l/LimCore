@@ -1,4 +1,4 @@
-// Отправляет на VirusTotal APK и установщик из update.json приложений, которых там ещё нет,
+// Отправляет на VirusTotal APK, установщик, AppImage и пакеты Linux из update.json приложений, которых там ещё нет,
 // чтобы ссылки «VirusTotal» в README вели на готовый отчёт.
 // Запуск: VT_API_KEY=… node scripts/virustotal.mjs (Node 18+)
 //
@@ -23,6 +23,11 @@ const linux = await getJson(`${RAW}/LimCore-Linux/main/update.json`);
 const files = [
   { name: 'LimCore-Setup.exe', url: `${RAW}/LimCore-Desktop/main/${windows.file}`, sha256: windows.sha256 },
   { name: 'LimCore-x86_64.AppImage', url: `${RAW}/LimCore-Linux/main/${linux.file}`, sha256: linux.sha256 },
+  ...Object.entries(linux.packages || {}).map(([kind, p]) => ({
+    name: `LimCore-x86_64.${kind}`,
+    url: `${RAW}/LimCore-Linux/main/${p.file}`,
+    sha256: p.sha256,
+  })),
   ...['universal', 'arm64-v8a', 'armeabi-v7a', 'x86_64'].map((abi) => ({
     name: `LimCore-${abi}.apk`,
     url: `${RAW}/LimCore-Android/main/${android.apks[abi].file}`,
