@@ -29,7 +29,7 @@ https://r2.e-z.host/ece2bcc4-a1d5-45e9-ab73-5b6817483b94/l0j16r6d.mp4
     <td align="center" width="33%">
       <h3>Windows</h3>
       <a href="https://github.com/l-limon-l/LimCore-Desktop/raw/main/installer/LimCore-Setup.exe"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Setup.exe-f2f2f2?style=for-the-badge&logo=windows11&logoColor=white&labelColor=161616" alt="Скачать установщик для Windows" /></a>
-      <p><b>2.4.7</b> · 09.10.2026 · 48,2 МБ<br /><sub>Установщик, обновляется сам</sub></p>
+      <p><b>2.4.8</b> · 09.10.2026 · 48,2 МБ<br /><sub>Установщик, обновляется сам</sub></p>
     </td>
     <td align="center" width="33%">
       <h3>Linux · Steam Deck</h3>
@@ -109,7 +109,7 @@ https://r2.e-z.host/ece2bcc4-a1d5-45e9-ab73-5b6817483b94/l0j16r6d.mp4
 <!-- auto:hashes -->
 | Файл | SHA-256 | Проверка |
 |---|---|---|
-| `LimCore-Setup.exe` | <sub>`c5754d574065ae8e490e6211fdd61380554aaa31eaf18a50b5e367b4b2878d39`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/c5754d574065ae8e490e6211fdd61380554aaa31eaf18a50b5e367b4b2878d39) |
+| `LimCore-Setup.exe` | <sub>`ec25e9c071fe51df238d34bdd67520bbcfb6b3f7be05614be3c8d40418395fce`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/ec25e9c071fe51df238d34bdd67520bbcfb6b3f7be05614be3c8d40418395fce) |
 | `LimCore-x86_64.AppImage` | <sub>`244b3fae2bb47e06ab1d2849c4594551c1d2133a5dd1f3574c1221d47ca1c6bf`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/244b3fae2bb47e06ab1d2849c4594551c1d2133a5dd1f3574c1221d47ca1c6bf) |
 | `LimCore-x86_64.deb` | <sub>`9ae75d6b9404a039f34173db28d0a2be9896a33506bf457696975630c7019f3f`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/9ae75d6b9404a039f34173db28d0a2be9896a33506bf457696975630c7019f3f) |
 | `LimCore-x86_64.rpm` | <sub>`f25ef1e5f475eb854a993b155ffc3a1c23b3a796cafea7ce3913a97fec09b3dc`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/f25ef1e5f475eb854a993b155ffc3a1c23b3a796cafea7ce3913a97fec09b3dc) |
@@ -136,10 +136,9 @@ sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (т�
 
 - Обновлены внутренние компоненты.
 
-**Windows 2.4.7** · 09.10.2026
+**Windows 2.4.8** · 09.10.2026
 
-- Окно «Обнаружено конфликтующее ПО» при подключении: zapret, GoodbyeDPI, ByeDPI или SpoofDPI выгружаются одной кнопкой.
-- Исправлено ложное предупреждение о zapret после его закрытия.
+- Конфликтующее ПО проверяется и при открытии приложения.
 
 **Linux 2.5.4** · 09.10.2026
 
