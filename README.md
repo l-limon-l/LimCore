@@ -15,7 +15,7 @@
 
 </div>
 
-https://r2.e-z.host/ece2bcc4-a1d5-45e9-ab73-5b6817483b94/l0j16r6d.mp4
+https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
 
 ## Скачать
 
