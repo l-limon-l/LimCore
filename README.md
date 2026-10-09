@@ -30,7 +30,7 @@ https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
     <td align="center" width="25%">
       <h3>Windows</h3>
       <a href="https://github.com/l-limon-l/LimCore-Desktop/raw/main/installer/LimCore-Setup.exe"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Setup.exe-f2f2f2?style=for-the-badge&logo=windows11&logoColor=white&labelColor=161616" alt="Скачать установщик для Windows" /></a>
-      <p><b>2.4.9</b> · 09.10.2026 · 48,2 МБ<br /><sub>Установщик, обновляется сам</sub></p>
+      <p><b>2.5.7</b> · 09.10.2026 · 48,2 МБ<br /><sub>Установщик, обновляется сам</sub></p>
     </td>
     <td align="center" width="25%">
       <h3>Linux · Steam Deck</h3>
@@ -127,7 +127,7 @@ wget -qO- https://raw.githubusercontent.com/l-limon-l/LimCoreWRT/main/install.sh
 <!-- auto:hashes -->
 | Файл | SHA-256 | Проверка |
 |---|---|---|
-| `LimCore-Setup.exe` | <sub>`36e196610a27c497a0efb05d35144790a0fc55e599d8bc02c4f784332cf4e567`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/36e196610a27c497a0efb05d35144790a0fc55e599d8bc02c4f784332cf4e567) |
+| `LimCore-Setup.exe` | <sub>`a9918763983b65dc3a5b19c973c66c862d3fb50c514790220f65aaae821e02bc`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/a9918763983b65dc3a5b19c973c66c862d3fb50c514790220f65aaae821e02bc) |
 | `LimCore-x86_64.AppImage` | <sub>`faa20dd7c4e522e465034eee7cca41ff2800a3b04ffb67a359ee978aab55e1cc`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/faa20dd7c4e522e465034eee7cca41ff2800a3b04ffb67a359ee978aab55e1cc) |
 | `LimCore-x86_64.deb` | <sub>`13aa8c438351d9fcc69d730536efcc690f01e46f046458968db87766c0930e71`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/13aa8c438351d9fcc69d730536efcc690f01e46f046458968db87766c0930e71) |
 | `LimCore-x86_64.rpm` | <sub>`a67424c4df5c725e08d477b69898706068ebb7b553eeef85174b1c1247fd01d9`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/a67424c4df5c725e08d477b69898706068ebb7b553eeef85174b1c1247fd01d9) |
@@ -158,10 +158,9 @@ sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (т�
 - Исправлена проверка задержки для серверов, которые не открывают сайт проверки.
 - Исправлено автопереключение серверов в балансерах.
 
-**Windows 2.4.9** · 09.10.2026
+**Windows 2.5.7** · 09.10.2026
 
-- Исправлена проверка задержки для серверов, которые не открывают сайт проверки.
-- Исправлено автопереключение серверов в балансерах.
+- Добавлен переключатель системной рамки окна в настройках интерфейса.
 
 **Linux 2.5.6** · 09.10.2026
 
