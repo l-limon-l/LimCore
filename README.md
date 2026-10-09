@@ -14,7 +14,7 @@
 
 </div>
 
-https://github.com/user-attachments/assets/7b351e5d-6c08-4696-b1db-3b3bd3532587
+https://r2.e-z.host/ece2bcc4-a1d5-45e9-ab73-5b6817483b94/l0j16r6d.mp4
 
 ## Скачать
 
