@@ -34,7 +34,7 @@ https://github.com/user-attachments/assets/7b351e5d-6c08-4696-b1db-3b3bd3532587
     <td align="center" width="33%">
       <h3>Linux · Steam Deck</h3>
       <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/appimage/LimCore-x86_64.AppImage"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-AppImage-f2f2f2?style=for-the-badge&logo=linux&logoColor=white&labelColor=161616" alt="Скачать AppImage для Linux и Steam Deck" /></a>
-      <p><b>2.4.6</b> · 08.10.2026 · 72,2 МБ<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/deb/LimCore-x86_64.deb">.deb</a> · <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/rpm/LimCore-x86_64.rpm">.rpm</a></sub></p>
+      <p><b>2.5.0</b> · 09.10.2026 · 72,0 МБ<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/deb/LimCore-x86_64.deb">.deb</a> · <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/rpm/LimCore-x86_64.rpm">.rpm</a></sub></p>
     </td>
   </tr>
 </table>
@@ -110,9 +110,9 @@ https://github.com/user-attachments/assets/7b351e5d-6c08-4696-b1db-3b3bd3532587
 | Файл | SHA-256 | Проверка |
 |---|---|---|
 | `LimCore-Setup.exe` | <sub>`6c28893acd168af184eed8c81438770051f272bea819760554ef78240b67ee60`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/6c28893acd168af184eed8c81438770051f272bea819760554ef78240b67ee60) |
-| `LimCore-x86_64.AppImage` | <sub>`172c1fd742d8cab119bbe4b42157f644cfc1ffb78cd86bdcd355b9b799702e15`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/172c1fd742d8cab119bbe4b42157f644cfc1ffb78cd86bdcd355b9b799702e15) |
-| `LimCore-x86_64.deb` | <sub>`72aa016eb7813a049aa98026cabf7fa7c9ab0911485fb13e634e2c4982fe5411`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/72aa016eb7813a049aa98026cabf7fa7c9ab0911485fb13e634e2c4982fe5411) |
-| `LimCore-x86_64.rpm` | <sub>`1b8d916359f483a515e737dfb60ac5719bb226b7b44742da3058832a29677ae0`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/1b8d916359f483a515e737dfb60ac5719bb226b7b44742da3058832a29677ae0) |
+| `LimCore-x86_64.AppImage` | <sub>`b9419845dafa5457bacb6dfe14744f9886b287a031901a33423d19520a960208`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/b9419845dafa5457bacb6dfe14744f9886b287a031901a33423d19520a960208) |
+| `LimCore-x86_64.deb` | <sub>`3aee9af96eaa187ebc3678096187146d8fafd83dc010a1920a7c29ec432ab74d`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/3aee9af96eaa187ebc3678096187146d8fafd83dc010a1920a7c29ec432ab74d) |
+| `LimCore-x86_64.rpm` | <sub>`b386ec6befbb10f0862392bf81ae3cbb9f4b2244a841f497b1fa990dd1a47b33`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/b386ec6befbb10f0862392bf81ae3cbb9f4b2244a841f497b1fa990dd1a47b33) |
 | `LimCore-universal.apk` | <sub>`ae409b3339f4b234464e5e6c600c92a3e4ed1dfe512a1a88cf5f0cfde5b50379`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/ae409b3339f4b234464e5e6c600c92a3e4ed1dfe512a1a88cf5f0cfde5b50379) |
 | `LimCore-arm64-v8a.apk` | <sub>`30f7112a7b05122c585b2f9f9d0675d04835a859489938f8a63ac653cfc9f023`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/30f7112a7b05122c585b2f9f9d0675d04835a859489938f8a63ac653cfc9f023) |
 | `LimCore-armeabi-v7a.apk` | <sub>`fd6297e8e71d4feac8e737b1b2ecccb5d42f9b72b71acd5a3dbb28354eb5bdf5`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/fd6297e8e71d4feac8e737b1b2ecccb5d42f9b72b71acd5a3dbb28354eb5bdf5) |
@@ -141,11 +141,11 @@ sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (т�
 - Новый деинсталлятор в стиле установщика.
 - Исправлен нечитаемый текст в окнах установки.
 
-**Linux 2.4.6** · 08.10.2026
+**Linux 2.5.0** · 09.10.2026
 
-- Добавлены пакеты .deb и .rpm для Debian, Ubuntu, Linux Mint, Fedora и openSUSE.
-- Меню в трее открывается у иконки: в KDE по правому клику, в GNOME по колёсику.
-- Цветные эмодзи в названиях серверов и подписок.
+- Плагин для Decky Loader: VPN в меню быстрого доступа в игровом режиме Steam Deck — включение, сервер, задержка, скорость.
+- VPN теперь выключается вместе с приложением: служба больше не держит туннель после закрытия LimCore и не подключается сама после перезагрузки.
+- Убран ярлык в библиотеке Steam: в игровом режиме VPN управляется плагином.
 <!-- /auto:changes -->
 
 Полная история: [Android](https://github.com/l-limon-l/LimCore-Android/blob/main/CHANGELOG.md) · [Windows](https://github.com/l-limon-l/LimCore-Desktop/blob/main/CHANGELOG.md) · [Linux](https://github.com/l-limon-l/LimCore-Linux/blob/main/CHANGELOG.md)
