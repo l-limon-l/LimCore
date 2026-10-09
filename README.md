@@ -29,7 +29,7 @@ https://r2.e-z.host/ece2bcc4-a1d5-45e9-ab73-5b6817483b94/l0j16r6d.mp4
     <td align="center" width="33%">
       <h3>Windows</h3>
       <a href="https://github.com/l-limon-l/LimCore-Desktop/raw/main/installer/LimCore-Setup.exe"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Setup.exe-f2f2f2?style=for-the-badge&logo=windows11&logoColor=white&labelColor=161616" alt="Скачать установщик для Windows" /></a>
-      <p><b>2.4.5</b> · 08.10.2026 · 48,2 МБ<br /><sub>Установщик, обновляется сам</sub></p>
+      <p><b>2.4.6</b> · 09.10.2026 · 48,2 МБ<br /><sub>Установщик, обновляется сам</sub></p>
     </td>
     <td align="center" width="33%">
       <h3>Linux · Steam Deck</h3>
@@ -109,7 +109,7 @@ https://r2.e-z.host/ece2bcc4-a1d5-45e9-ab73-5b6817483b94/l0j16r6d.mp4
 <!-- auto:hashes -->
 | Файл | SHA-256 | Проверка |
 |---|---|---|
-| `LimCore-Setup.exe` | <sub>`6c28893acd168af184eed8c81438770051f272bea819760554ef78240b67ee60`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/6c28893acd168af184eed8c81438770051f272bea819760554ef78240b67ee60) |
+| `LimCore-Setup.exe` | <sub>`c6d8bd25c92900bd524aae2afe874d16267863668b745a5d37fbc12279001ac2`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/c6d8bd25c92900bd524aae2afe874d16267863668b745a5d37fbc12279001ac2) |
 | `LimCore-x86_64.AppImage` | <sub>`7ada2cca0f3fb1ffdaefe566b36a94eb8b130a11fe2b38f216a73d6705f9b2aa`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/7ada2cca0f3fb1ffdaefe566b36a94eb8b130a11fe2b38f216a73d6705f9b2aa) |
 | `LimCore-x86_64.deb` | <sub>`74cb4270d946c79b96d7d461ec1c3cb34c9a88f195e9f42802840ca2d3125be5`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/74cb4270d946c79b96d7d461ec1c3cb34c9a88f195e9f42802840ca2d3125be5) |
 | `LimCore-x86_64.rpm` | <sub>`1dfd9d2ee7be52ea4bffcc24eb372f8b2e84095f928b4cb2de41040f4cc04bb2`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/1dfd9d2ee7be52ea4bffcc24eb372f8b2e84095f928b4cb2de41040f4cc04bb2) |
@@ -136,10 +136,9 @@ sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (т�
 
 - Обновлены внутренние компоненты.
 
-**Windows 2.4.5** · 08.10.2026
+**Windows 2.4.6** · 09.10.2026
 
-- Новый деинсталлятор в стиле установщика.
-- Исправлен нечитаемый текст в окнах установки.
+- Предупреждение, если при подключении работает zapret, GoodbyeDPI или WinDivert: они ломают VPN. Кнопка «Остановить» отключает их службы и драйвер.
 
 **Linux 2.5.3** · 09.10.2026
 
