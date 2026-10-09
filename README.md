@@ -34,7 +34,7 @@ https://r2.e-z.host/ece2bcc4-a1d5-45e9-ab73-5b6817483b94/l0j16r6d.mp4
     <td align="center" width="33%">
       <h3>Linux · Steam Deck</h3>
       <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/appimage/LimCore-x86_64.AppImage"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-AppImage-f2f2f2?style=for-the-badge&logo=linux&logoColor=white&labelColor=161616" alt="Скачать AppImage для Linux и Steam Deck" /></a>
-      <p><b>2.5.3</b> · 09.10.2026 · 72,1 МБ<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/deb/LimCore-x86_64.deb">.deb</a> · <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/rpm/LimCore-x86_64.rpm">.rpm</a></sub></p>
+      <p><b>2.5.4</b> · 09.10.2026 · 72,1 МБ<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/deb/LimCore-x86_64.deb">.deb</a> · <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/rpm/LimCore-x86_64.rpm">.rpm</a></sub></p>
     </td>
   </tr>
 </table>
@@ -110,9 +110,9 @@ https://r2.e-z.host/ece2bcc4-a1d5-45e9-ab73-5b6817483b94/l0j16r6d.mp4
 | Файл | SHA-256 | Проверка |
 |---|---|---|
 | `LimCore-Setup.exe` | <sub>`c5754d574065ae8e490e6211fdd61380554aaa31eaf18a50b5e367b4b2878d39`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/c5754d574065ae8e490e6211fdd61380554aaa31eaf18a50b5e367b4b2878d39) |
-| `LimCore-x86_64.AppImage` | <sub>`7ada2cca0f3fb1ffdaefe566b36a94eb8b130a11fe2b38f216a73d6705f9b2aa`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/7ada2cca0f3fb1ffdaefe566b36a94eb8b130a11fe2b38f216a73d6705f9b2aa) |
-| `LimCore-x86_64.deb` | <sub>`74cb4270d946c79b96d7d461ec1c3cb34c9a88f195e9f42802840ca2d3125be5`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/74cb4270d946c79b96d7d461ec1c3cb34c9a88f195e9f42802840ca2d3125be5) |
-| `LimCore-x86_64.rpm` | <sub>`1dfd9d2ee7be52ea4bffcc24eb372f8b2e84095f928b4cb2de41040f4cc04bb2`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/1dfd9d2ee7be52ea4bffcc24eb372f8b2e84095f928b4cb2de41040f4cc04bb2) |
+| `LimCore-x86_64.AppImage` | <sub>`244b3fae2bb47e06ab1d2849c4594551c1d2133a5dd1f3574c1221d47ca1c6bf`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/244b3fae2bb47e06ab1d2849c4594551c1d2133a5dd1f3574c1221d47ca1c6bf) |
+| `LimCore-x86_64.deb` | <sub>`9ae75d6b9404a039f34173db28d0a2be9896a33506bf457696975630c7019f3f`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/9ae75d6b9404a039f34173db28d0a2be9896a33506bf457696975630c7019f3f) |
+| `LimCore-x86_64.rpm` | <sub>`f25ef1e5f475eb854a993b155ffc3a1c23b3a796cafea7ce3913a97fec09b3dc`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/f25ef1e5f475eb854a993b155ffc3a1c23b3a796cafea7ce3913a97fec09b3dc) |
 | `LimCore-universal.apk` | <sub>`ae409b3339f4b234464e5e6c600c92a3e4ed1dfe512a1a88cf5f0cfde5b50379`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/ae409b3339f4b234464e5e6c600c92a3e4ed1dfe512a1a88cf5f0cfde5b50379) |
 | `LimCore-arm64-v8a.apk` | <sub>`30f7112a7b05122c585b2f9f9d0675d04835a859489938f8a63ac653cfc9f023`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/30f7112a7b05122c585b2f9f9d0675d04835a859489938f8a63ac653cfc9f023) |
 | `LimCore-armeabi-v7a.apk` | <sub>`fd6297e8e71d4feac8e737b1b2ecccb5d42f9b72b71acd5a3dbb28354eb5bdf5`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/fd6297e8e71d4feac8e737b1b2ecccb5d42f9b72b71acd5a3dbb28354eb5bdf5) |
@@ -141,9 +141,9 @@ sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (т�
 - Окно «Обнаружено конфликтующее ПО» при подключении: zapret, GoodbyeDPI, ByeDPI или SpoofDPI выгружаются одной кнопкой.
 - Исправлено ложное предупреждение о zapret после его закрытия.
 
-**Linux 2.5.3** · 09.10.2026
+**Linux 2.5.4** · 09.10.2026
 
-- Предупреждение, если при подключении работает zapret, GoodbyeDPI или WinDivert: они ломают VPN. Кнопка «Остановить» в приложении и в плагине Decky.
+- Окно «Обнаружено конфликтующее ПО» при подключении: zapret, ByeDPI или SpoofDPI выгружаются одной кнопкой.
 <!-- /auto:changes -->
 
 Полная история: [Android](https://github.com/l-limon-l/LimCore-Android/blob/main/CHANGELOG.md) · [Windows](https://github.com/l-limon-l/LimCore-Desktop/blob/main/CHANGELOG.md) · [Linux](https://github.com/l-limon-l/LimCore-Linux/blob/main/CHANGELOG.md)
