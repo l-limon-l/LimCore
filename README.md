@@ -35,7 +35,7 @@ https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
     <td align="center" width="25%">
       <h3>Linux · Steam Deck</h3>
       <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/appimage/LimCore-x86_64.AppImage"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-AppImage-f2f2f2?style=for-the-badge&logo=linux&logoColor=white&labelColor=161616" alt="Скачать AppImage для Linux и Steam Deck" /></a>
-      <p><b>2.5.7</b> · 09.10.2026 · 72,1 МБ<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/deb/LimCore-x86_64.deb">.deb</a> · <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/rpm/LimCore-x86_64.rpm">.rpm</a></sub></p>
+      <p><b>2.5.8</b> · 09.10.2026 · 72,1 МБ<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/deb/LimCore-x86_64.deb">.deb</a> · <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/rpm/LimCore-x86_64.rpm">.rpm</a></sub></p>
     </td>
     <td align="center" width="25%">
       <h3>OpenWrt · роутеры</h3>
@@ -128,9 +128,9 @@ wget -qO- https://raw.githubusercontent.com/l-limon-l/LimCoreWRT/main/install.sh
 | Файл | SHA-256 | Проверка |
 |---|---|---|
 | `LimCore-Setup.exe` | <sub>`b9beb5354d16aa2d1ad10480bbcb687801306d07612b173046fab62bc4b0359d`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/b9beb5354d16aa2d1ad10480bbcb687801306d07612b173046fab62bc4b0359d) |
-| `LimCore-x86_64.AppImage` | <sub>`31c76c8fecb768a266bc8a553818560eec1b2cedf40e93ce6fe17b7516193443`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/31c76c8fecb768a266bc8a553818560eec1b2cedf40e93ce6fe17b7516193443) |
-| `LimCore-x86_64.deb` | <sub>`fdc2da48882836b2e80a1c58e4f2d7248724de1b39460eb0c96b92da749a4271`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/fdc2da48882836b2e80a1c58e4f2d7248724de1b39460eb0c96b92da749a4271) |
-| `LimCore-x86_64.rpm` | <sub>`ef20236b6d714df6b1e058c4e571f3ab2e911f9ebc924c8d7b1a260d1d9f396b`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/ef20236b6d714df6b1e058c4e571f3ab2e911f9ebc924c8d7b1a260d1d9f396b) |
+| `LimCore-x86_64.AppImage` | <sub>`3a40a5226a46794782d73d6891e9a6ebff45efc7e991b6337a6baec0eea1281b`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/3a40a5226a46794782d73d6891e9a6ebff45efc7e991b6337a6baec0eea1281b) |
+| `LimCore-x86_64.deb` | <sub>`dea09ffa4cc3d0ede05c3fd4a1d1725de6467e27533c24d8efe8f652e64c28e4`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/dea09ffa4cc3d0ede05c3fd4a1d1725de6467e27533c24d8efe8f652e64c28e4) |
+| `LimCore-x86_64.rpm` | <sub>`b62930f12266b6de4e8d64bce946a31443dfea3f2da12aca7962a69162714962`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/b62930f12266b6de4e8d64bce946a31443dfea3f2da12aca7962a69162714962) |
 | `LimCore-universal.apk` | <sub>`8335167645894821ce2ad18a4cbd0b310984fbf7bed2e85837a440996f5bb839`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/8335167645894821ce2ad18a4cbd0b310984fbf7bed2e85837a440996f5bb839) |
 | `LimCore-arm64-v8a.apk` | <sub>`c28a9a27eb96d85bab5971fe0123b26f4c4d036585a642f4f167a419547eb74d`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/c28a9a27eb96d85bab5971fe0123b26f4c4d036585a642f4f167a419547eb74d) |
 | `LimCore-armeabi-v7a.apk` | <sub>`dc1a5b6e28b8367064b5fefc9299b516b96773b3f0e201a83631f0d120cffaee`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/dc1a5b6e28b8367064b5fefc9299b516b96773b3f0e201a83631f0d120cffaee) |
@@ -162,9 +162,9 @@ sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (т�
 
 Исправлен вылет при изменении профиля маршрутизации.
 
-**Linux 2.5.7** · 09.10.2026
+**Linux 2.5.8** · 09.10.2026
 
-- Добавлен переключатель системной рамки окна в настройках интерфейса.
+Исправлен вылет при изменении профиля маршрутизации.
 
 **OpenWrt 2.1.0** · 09.10.2026
 
