@@ -29,7 +29,7 @@ https://r2.e-z.host/ece2bcc4-a1d5-45e9-ab73-5b6817483b94/l0j16r6d.mp4
     <td align="center" width="33%">
       <h3>Windows</h3>
       <a href="https://github.com/l-limon-l/LimCore-Desktop/raw/main/installer/LimCore-Setup.exe"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Setup.exe-f2f2f2?style=for-the-badge&logo=windows11&logoColor=white&labelColor=161616" alt="Скачать установщик для Windows" /></a>
-      <p><b>2.4.8</b> · 09.10.2026 · 48,2 МБ<br /><sub>Установщик, обновляется сам</sub></p>
+      <p><b>2.4.9</b> · 09.10.2026 · 48,2 МБ<br /><sub>Установщик, обновляется сам</sub></p>
     </td>
     <td align="center" width="33%">
       <h3>Linux · Steam Deck</h3>
@@ -109,7 +109,7 @@ https://r2.e-z.host/ece2bcc4-a1d5-45e9-ab73-5b6817483b94/l0j16r6d.mp4
 <!-- auto:hashes -->
 | Файл | SHA-256 | Проверка |
 |---|---|---|
-| `LimCore-Setup.exe` | <sub>`ec25e9c071fe51df238d34bdd67520bbcfb6b3f7be05614be3c8d40418395fce`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/ec25e9c071fe51df238d34bdd67520bbcfb6b3f7be05614be3c8d40418395fce) |
+| `LimCore-Setup.exe` | <sub>`36e196610a27c497a0efb05d35144790a0fc55e599d8bc02c4f784332cf4e567`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/36e196610a27c497a0efb05d35144790a0fc55e599d8bc02c4f784332cf4e567) |
 | `LimCore-x86_64.AppImage` | <sub>`c3bedefa700fe549419ff86f791a4faaf8e9c1f8b46e47289cde0e832ed607c4`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/c3bedefa700fe549419ff86f791a4faaf8e9c1f8b46e47289cde0e832ed607c4) |
 | `LimCore-x86_64.deb` | <sub>`315ea12ced1258cd64c6b725b8ceebecbf9c23842ac4ed90b3a9526ccfc8d5c9`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/315ea12ced1258cd64c6b725b8ceebecbf9c23842ac4ed90b3a9526ccfc8d5c9) |
 | `LimCore-x86_64.rpm` | <sub>`a680a9f94faa794f84a46ab5f9b271d54e9952f577b877ccd572a34e9f7ef6e3`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/a680a9f94faa794f84a46ab5f9b271d54e9952f577b877ccd572a34e9f7ef6e3) |
@@ -137,9 +137,10 @@ sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (т�
 - Исправлена проверка задержки для серверов, которые не открывают сайт проверки.
 - Исправлено автопереключение серверов в балансерах.
 
-**Windows 2.4.8** · 09.10.2026
+**Windows 2.4.9** · 09.10.2026
 
-- Конфликтующее ПО проверяется и при открытии приложения.
+- Исправлена проверка задержки для серверов, которые не открывают сайт проверки.
+- Исправлено автопереключение серверов в балансерах.
 
 **Linux 2.5.5** · 09.10.2026
 
