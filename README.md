@@ -34,7 +34,7 @@ https://github.com/user-attachments/assets/7b351e5d-6c08-4696-b1db-3b3bd3532587
     <td align="center" width="33%">
       <h3>Linux · Steam Deck</h3>
       <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/appimage/LimCore-x86_64.AppImage"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-AppImage-f2f2f2?style=for-the-badge&logo=linux&logoColor=white&labelColor=161616" alt="Скачать AppImage для Linux и Steam Deck" /></a>
-      <p><b>2.5.1</b> · 09.10.2026 · 72,1 МБ<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/deb/LimCore-x86_64.deb">.deb</a> · <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/rpm/LimCore-x86_64.rpm">.rpm</a></sub></p>
+      <p><b>2.5.2</b> · 09.10.2026 · 72,1 МБ<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/deb/LimCore-x86_64.deb">.deb</a> · <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/rpm/LimCore-x86_64.rpm">.rpm</a></sub></p>
     </td>
   </tr>
 </table>
@@ -110,9 +110,9 @@ https://github.com/user-attachments/assets/7b351e5d-6c08-4696-b1db-3b3bd3532587
 | Файл | SHA-256 | Проверка |
 |---|---|---|
 | `LimCore-Setup.exe` | <sub>`6c28893acd168af184eed8c81438770051f272bea819760554ef78240b67ee60`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/6c28893acd168af184eed8c81438770051f272bea819760554ef78240b67ee60) |
-| `LimCore-x86_64.AppImage` | <sub>`4d4fb3dd02b676f1e17919f439829897e8ccd6adfc7caf8566612292d68323b0`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/4d4fb3dd02b676f1e17919f439829897e8ccd6adfc7caf8566612292d68323b0) |
-| `LimCore-x86_64.deb` | <sub>`000a257f93a65bced5839e2ce55c6ee2d92946020d39e2b0694f413036eca6dc`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/000a257f93a65bced5839e2ce55c6ee2d92946020d39e2b0694f413036eca6dc) |
-| `LimCore-x86_64.rpm` | <sub>`d87f87b100952df8c8813403181180fafba442113872ce02fc6ea6d5ebe4d47d`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/d87f87b100952df8c8813403181180fafba442113872ce02fc6ea6d5ebe4d47d) |
+| `LimCore-x86_64.AppImage` | <sub>`8672cd94bbdd75c381ea0570ac8d45d0a4a5d858e129cefcc45be37ad562978c`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/8672cd94bbdd75c381ea0570ac8d45d0a4a5d858e129cefcc45be37ad562978c) |
+| `LimCore-x86_64.deb` | <sub>`17064b7ae6af8e3581bfc4597032b6a0d0dcbf9516f51fb35c4a71e402cb0e92`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/17064b7ae6af8e3581bfc4597032b6a0d0dcbf9516f51fb35c4a71e402cb0e92) |
+| `LimCore-x86_64.rpm` | <sub>`ceacc12ef5732ba6ee3dcda2f39b503842aa9678c52fd7231ed2aa3ed5e3b8d2`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/ceacc12ef5732ba6ee3dcda2f39b503842aa9678c52fd7231ed2aa3ed5e3b8d2) |
 | `LimCore-universal.apk` | <sub>`ae409b3339f4b234464e5e6c600c92a3e4ed1dfe512a1a88cf5f0cfde5b50379`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/ae409b3339f4b234464e5e6c600c92a3e4ed1dfe512a1a88cf5f0cfde5b50379) |
 | `LimCore-arm64-v8a.apk` | <sub>`30f7112a7b05122c585b2f9f9d0675d04835a859489938f8a63ac653cfc9f023`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/30f7112a7b05122c585b2f9f9d0675d04835a859489938f8a63ac653cfc9f023) |
 | `LimCore-armeabi-v7a.apk` | <sub>`fd6297e8e71d4feac8e737b1b2ecccb5d42f9b72b71acd5a3dbb28354eb5bdf5`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/fd6297e8e71d4feac8e737b1b2ecccb5d42f9b72b71acd5a3dbb28354eb5bdf5) |
@@ -141,9 +141,9 @@ sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (т�
 - Новый деинсталлятор в стиле установщика.
 - Исправлен нечитаемый текст в окнах установки.
 
-**Linux 2.5.1** · 09.10.2026
+**Linux 2.5.2** · 09.10.2026
 
-- Исправлена потеря интернета на Steam Deck при прямых UDP-соединениях через VPN.
+- Приложение предлагает обновить службу LimCore, если она устарела.
 <!-- /auto:changes -->
 
 Полная история: [Android](https://github.com/l-limon-l/LimCore-Android/blob/main/CHANGELOG.md) · [Windows](https://github.com/l-limon-l/LimCore-Desktop/blob/main/CHANGELOG.md) · [Linux](https://github.com/l-limon-l/LimCore-Linux/blob/main/CHANGELOG.md)
