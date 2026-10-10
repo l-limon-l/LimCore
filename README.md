@@ -40,7 +40,7 @@ https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
     <td align="center" width="25%">
       <h3>OpenWrt · роутеры</h3>
       <a href="#установка-на-роутер"><img src="https://img.shields.io/badge/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-install.sh-f2f2f2?style=for-the-badge&logo=openwrt&logoColor=white&labelColor=161616" alt="Установить LimCore на роутер с OpenWrt" /></a>
-      <p><b>2.2.1</b> · 10.10.2026 · 0,3 МБ<br /><sub>OpenWrt 23.05 и новее, LuCI</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all.apk">.apk</a> · <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all.ipk">.ipk</a> · <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all-legacy.ipk">-legacy.ipk</a></sub></p>
+      <p><b>2.3.0</b> · 10.10.2026 · 0,3 МБ<br /><sub>OpenWrt 23.05 и новее, LuCI</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all.apk">.apk</a> · <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all.ipk">.ipk</a> · <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all-legacy.ipk">-legacy.ipk</a></sub></p>
     </td>
   </tr>
 </table>
@@ -135,9 +135,9 @@ wget -qO- https://raw.githubusercontent.com/l-limon-l/LimCoreWRT/main/install.sh
 | `LimCore-arm64-v8a.apk` | <sub>`c28a9a27eb96d85bab5971fe0123b26f4c4d036585a642f4f167a419547eb74d`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/c28a9a27eb96d85bab5971fe0123b26f4c4d036585a642f4f167a419547eb74d) |
 | `LimCore-armeabi-v7a.apk` | <sub>`dc1a5b6e28b8367064b5fefc9299b516b96773b3f0e201a83631f0d120cffaee`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/dc1a5b6e28b8367064b5fefc9299b516b96773b3f0e201a83631f0d120cffaee) |
 | `LimCore-x86_64.apk` | <sub>`156015504afd25882622b9be6bf5bbf6b534c139ad901501978cc1a506d262a1`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/156015504afd25882622b9be6bf5bbf6b534c139ad901501978cc1a506d262a1) |
-| `luci-app-limcore_all.apk` | <sub>`2af5174edd3b9224d44689d1c6c082af8c17d0eabb486911e006ba9bbfd57a25`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/2af5174edd3b9224d44689d1c6c082af8c17d0eabb486911e006ba9bbfd57a25) |
-| `luci-app-limcore_all.ipk` | <sub>`63c0b8e2bebcf9cb37e90a57179825440fd285a02d2ecf9e213aa63884df06d2`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/63c0b8e2bebcf9cb37e90a57179825440fd285a02d2ecf9e213aa63884df06d2) |
-| `luci-app-limcore_all-legacy.ipk` | <sub>`0d98c2ec5efed16cff56ac1019b62c15beb0ba5f4aa3a117620cd7f4555392c2`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/0d98c2ec5efed16cff56ac1019b62c15beb0ba5f4aa3a117620cd7f4555392c2) |
+| `luci-app-limcore_all.apk` | <sub>`366b75e8c64cb1e3dcf2f3883b02280e214da688f51ecccbc0a74fae7e2f65f1`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/366b75e8c64cb1e3dcf2f3883b02280e214da688f51ecccbc0a74fae7e2f65f1) |
+| `luci-app-limcore_all.ipk` | <sub>`0c5e9904eabad93037e6c0e3483815157ab4a84c2ae459a220d73888d853d84c`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/0c5e9904eabad93037e6c0e3483815157ab4a84c2ae459a220d73888d853d84c) |
+| `luci-app-limcore_all-legacy.ipk` | <sub>`7fd738b87593ec008e1b85997e44aa5ca3daf649f201279956aecbc8f211c7ed`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/7fd738b87593ec008e1b85997e44aa5ca3daf649f201279956aecbc8f211c7ed) |
 <!-- /auto:hashes -->
 
 ```powershell
@@ -166,11 +166,12 @@ sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (т�
 
 Исправлен вылет при изменении профиля маршрутизации.
 
-**OpenWrt 2.2.1** · 10.10.2026
+**OpenWrt 2.3.0** · 10.10.2026
 
-- Добавлено правило AWS: игровые серверы на Amazon (EC2, GameLift) через VPN.
-- Comss.one подключается по DoH и сам следует за сменой серверов.
-- Удалён Xbox DNS, заблокированный Роскомнадзором. Выбранный Xbox DNS заменяется на Comss.one.
+- Ядро sing-box-extended ставится из сборки LimCore с поддержкой AmneziaWG 3.1.
+- Добавлены параметры AmneziaWG RandomTrailers и DisableCookies.
+- Исправлено подключение к серверам AmneziaWG 3.1 с включённым RandomTrailers.
+- PersistentKeepalive переносится при импорте .conf, диапазон заменяется первым числом.
 <!-- /auto:changes -->
 
 Полная история: [Android](https://github.com/l-limon-l/LimCore-Android/blob/main/CHANGELOG.md) · [Windows](https://github.com/l-limon-l/LimCore-Desktop/blob/main/CHANGELOG.md) · [Linux](https://github.com/l-limon-l/LimCore-Linux/blob/main/CHANGELOG.md) · [OpenWrt](https://github.com/l-limon-l/LimCoreWRT/blob/main/CHANGELOG.md)
