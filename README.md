@@ -40,7 +40,7 @@ https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
     <td align="center" width="25%">
       <h3>OpenWrt · роутеры</h3>
       <a href="#установка-на-роутер"><img src="https://img.shields.io/badge/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-install.sh-f2f2f2?style=for-the-badge&logo=openwrt&logoColor=white&labelColor=161616" alt="Установить LimCore на роутер с OpenWrt" /></a>
-      <p><b>2.1.0</b> · 09.10.2026 · 0,3 МБ<br /><sub>OpenWrt 23.05 и новее, LuCI</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all.apk">.apk</a> · <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all.ipk">.ipk</a> · <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all-legacy.ipk">-legacy.ipk</a></sub></p>
+      <p><b>2.2.1</b> · 10.10.2026 · 0,3 МБ<br /><sub>OpenWrt 23.05 и новее, LuCI</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all.apk">.apk</a> · <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all.ipk">.ipk</a> · <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all-legacy.ipk">-legacy.ipk</a></sub></p>
     </td>
   </tr>
 </table>
@@ -135,9 +135,9 @@ wget -qO- https://raw.githubusercontent.com/l-limon-l/LimCoreWRT/main/install.sh
 | `LimCore-arm64-v8a.apk` | <sub>`c28a9a27eb96d85bab5971fe0123b26f4c4d036585a642f4f167a419547eb74d`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/c28a9a27eb96d85bab5971fe0123b26f4c4d036585a642f4f167a419547eb74d) |
 | `LimCore-armeabi-v7a.apk` | <sub>`dc1a5b6e28b8367064b5fefc9299b516b96773b3f0e201a83631f0d120cffaee`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/dc1a5b6e28b8367064b5fefc9299b516b96773b3f0e201a83631f0d120cffaee) |
 | `LimCore-x86_64.apk` | <sub>`156015504afd25882622b9be6bf5bbf6b534c139ad901501978cc1a506d262a1`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/156015504afd25882622b9be6bf5bbf6b534c139ad901501978cc1a506d262a1) |
-| `luci-app-limcore_all.apk` | <sub>`581854b233a20ca80861796fb852dd60d22eae999df67bb87a222c494662e0d2`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/581854b233a20ca80861796fb852dd60d22eae999df67bb87a222c494662e0d2) |
-| `luci-app-limcore_all.ipk` | <sub>`9c960ab742efe4443abe440776746b2f7e79856c143a6c1c48fcef0232a8dd26`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/9c960ab742efe4443abe440776746b2f7e79856c143a6c1c48fcef0232a8dd26) |
-| `luci-app-limcore_all-legacy.ipk` | <sub>`a92e1282fa9fd430ba516b43e6dc40d9ff734c83f6f79e8cd0f6861a3c0c3f14`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/a92e1282fa9fd430ba516b43e6dc40d9ff734c83f6f79e8cd0f6861a3c0c3f14) |
+| `luci-app-limcore_all.apk` | <sub>`2af5174edd3b9224d44689d1c6c082af8c17d0eabb486911e006ba9bbfd57a25`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/2af5174edd3b9224d44689d1c6c082af8c17d0eabb486911e006ba9bbfd57a25) |
+| `luci-app-limcore_all.ipk` | <sub>`63c0b8e2bebcf9cb37e90a57179825440fd285a02d2ecf9e213aa63884df06d2`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/63c0b8e2bebcf9cb37e90a57179825440fd285a02d2ecf9e213aa63884df06d2) |
+| `luci-app-limcore_all-legacy.ipk` | <sub>`0d98c2ec5efed16cff56ac1019b62c15beb0ba5f4aa3a117620cd7f4555392c2`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/0d98c2ec5efed16cff56ac1019b62c15beb0ba5f4aa3a117620cd7f4555392c2) |
 <!-- /auto:hashes -->
 
 ```powershell
@@ -166,13 +166,11 @@ sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (т�
 
 Исправлен вылет при изменении профиля маршрутизации.
 
-**OpenWrt 2.1.0** · 09.10.2026
+**OpenWrt 2.2.1** · 10.10.2026
 
-- Обновления скачиваются из файлов репозитория LimCoreWRT, а не из GitHub Releases.
-- Пакеты проверяются по размеру и SHA-256 перед установкой.
-- Сохранение настроек, обновление и добавление подписок больше не перезапускают firewall и DNS: ядро перечитывает конфиг без остановки.
-- Если в подписке ничего не изменилось, соединение не прерывается.
-- При переподключении WAN перезапускается только ядро.
+- Добавлено правило AWS: игровые серверы на Amazon (EC2, GameLift) через VPN.
+- Comss.one подключается по DoH и сам следует за сменой серверов.
+- Удалён Xbox DNS, заблокированный Роскомнадзором. Выбранный Xbox DNS заменяется на Comss.one.
 <!-- /auto:changes -->
 
 Полная история: [Android](https://github.com/l-limon-l/LimCore-Android/blob/main/CHANGELOG.md) · [Windows](https://github.com/l-limon-l/LimCore-Desktop/blob/main/CHANGELOG.md) · [Linux](https://github.com/l-limon-l/LimCore-Linux/blob/main/CHANGELOG.md) · [OpenWrt](https://github.com/l-limon-l/LimCoreWRT/blob/main/CHANGELOG.md)
