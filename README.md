@@ -30,7 +30,7 @@ https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
     <td align="center" width="25%">
       <h3>Windows</h3>
       <a href="https://github.com/l-limon-l/LimCore-Desktop/raw/main/installer/LimCore-Setup.exe"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Setup.exe-f2f2f2?style=for-the-badge&logo=windows11&logoColor=white&labelColor=161616" alt="Скачать установщик для Windows" /></a>
-      <p><b>2.5.8</b> · 09.10.2026 · 48,2 МБ<br /><sub>Установщик, обновляется сам</sub></p>
+      <p><b>2.5.9</b> · 12.10.2026 · 48,2 МБ<br /><sub>Установщик, обновляется сам</sub></p>
     </td>
     <td align="center" width="25%">
       <h3>Linux · Steam Deck</h3>
@@ -127,7 +127,7 @@ wget -qO- https://raw.githubusercontent.com/l-limon-l/LimCoreWRT/main/install.sh
 <!-- auto:hashes -->
 | Файл | SHA-256 | Проверка |
 |---|---|---|
-| `LimCore-Setup.exe` | <sub>`b9beb5354d16aa2d1ad10480bbcb687801306d07612b173046fab62bc4b0359d`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/b9beb5354d16aa2d1ad10480bbcb687801306d07612b173046fab62bc4b0359d) |
+| `LimCore-Setup.exe` | <sub>`d7f80791802db94b1b82fc11e1a7b3b9a7236c7a99cd65a3194ade899665af44`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/d7f80791802db94b1b82fc11e1a7b3b9a7236c7a99cd65a3194ade899665af44) |
 | `LimCore-x86_64.AppImage` | <sub>`3a40a5226a46794782d73d6891e9a6ebff45efc7e991b6337a6baec0eea1281b`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/3a40a5226a46794782d73d6891e9a6ebff45efc7e991b6337a6baec0eea1281b) |
 | `LimCore-x86_64.deb` | <sub>`dea09ffa4cc3d0ede05c3fd4a1d1725de6467e27533c24d8efe8f652e64c28e4`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/dea09ffa4cc3d0ede05c3fd4a1d1725de6467e27533c24d8efe8f652e64c28e4) |
 | `LimCore-x86_64.rpm` | <sub>`b62930f12266b6de4e8d64bce946a31443dfea3f2da12aca7962a69162714962`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/b62930f12266b6de4e8d64bce946a31443dfea3f2da12aca7962a69162714962) |
@@ -158,9 +158,11 @@ sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (т�
 - Исправлена проверка задержки для серверов, которые не открывают сайт проверки.
 - Исправлено автопереключение серверов в балансерах.
 
-**Windows 2.5.8** · 09.10.2026
+**Windows 2.5.9** · 12.10.2026
 
-Исправлен вылет при изменении профиля маршрутизации.
+- Исправлено удаление LimCore: деинсталлятор больше не держит папку установки открытой.
+- Исправлена возможная блокировка Uninstall.exe при тихом удалении.
+- Если удаление не удалось, запись LimCore в списке установленных программ сохраняется, а тихий режим возвращает ошибку.
 
 **Linux 2.5.8** · 09.10.2026
 
