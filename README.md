@@ -40,7 +40,7 @@ https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
     <td align="center" width="25%">
       <h3>OpenWrt · роутеры</h3>
       <a href="#установка-на-роутер"><img src="https://img.shields.io/badge/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-install.sh-f2f2f2?style=for-the-badge&logo=openwrt&logoColor=white&labelColor=161616" alt="Установить LimCore на роутер с OpenWrt" /></a>
-      <p><b>2.3.1</b> · 10.10.2026 · 0,3 МБ<br /><sub>OpenWrt 23.05 и новее, LuCI</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all.apk">.apk</a> · <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all.ipk">.ipk</a> · <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all-legacy.ipk">-legacy.ipk</a></sub></p>
+      <p><b>2.3.2</b> · 13.10.2026 · 0,3 МБ<br /><sub>OpenWrt 23.05 и новее, LuCI</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all.apk">.apk</a> · <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all.ipk">.ipk</a> · <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all-legacy.ipk">-legacy.ipk</a></sub></p>
     </td>
   </tr>
 </table>
@@ -135,9 +135,9 @@ wget -qO- https://raw.githubusercontent.com/l-limon-l/LimCoreWRT/main/install.sh
 | `LimCore-arm64-v8a.apk` | <sub>`c28a9a27eb96d85bab5971fe0123b26f4c4d036585a642f4f167a419547eb74d`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/c28a9a27eb96d85bab5971fe0123b26f4c4d036585a642f4f167a419547eb74d) |
 | `LimCore-armeabi-v7a.apk` | <sub>`dc1a5b6e28b8367064b5fefc9299b516b96773b3f0e201a83631f0d120cffaee`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/dc1a5b6e28b8367064b5fefc9299b516b96773b3f0e201a83631f0d120cffaee) |
 | `LimCore-x86_64.apk` | <sub>`156015504afd25882622b9be6bf5bbf6b534c139ad901501978cc1a506d262a1`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/156015504afd25882622b9be6bf5bbf6b534c139ad901501978cc1a506d262a1) |
-| `luci-app-limcore_all.apk` | <sub>`6aadb9d5806dd2ce85e5e6cfffd2cdda83369bf0a959576ca2e4230452af6730`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/6aadb9d5806dd2ce85e5e6cfffd2cdda83369bf0a959576ca2e4230452af6730) |
-| `luci-app-limcore_all.ipk` | <sub>`d4bd07cd80501bedce9a1e03c1646d69d58e247f434d7679b4b6ba776103f581`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/d4bd07cd80501bedce9a1e03c1646d69d58e247f434d7679b4b6ba776103f581) |
-| `luci-app-limcore_all-legacy.ipk` | <sub>`9d56b1783ffca53185724e0c3338b550cd6ede7b7f1b4f7d0a28d7fb1cf5f76e`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/9d56b1783ffca53185724e0c3338b550cd6ede7b7f1b4f7d0a28d7fb1cf5f76e) |
+| `luci-app-limcore_all.apk` | <sub>`49416adbf4d395069ac37c6400955c353691d1bc54382e215de32dffed69ae48`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/49416adbf4d395069ac37c6400955c353691d1bc54382e215de32dffed69ae48) |
+| `luci-app-limcore_all.ipk` | <sub>`46c133d1c5213f3d7fe9f6a0b0dcb605956a0d68fdcb997cdc7cae1c1265d6c7`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/46c133d1c5213f3d7fe9f6a0b0dcb605956a0d68fdcb997cdc7cae1c1265d6c7) |
+| `luci-app-limcore_all-legacy.ipk` | <sub>`5ef2dc5b762853540690d349c95d52a84da39bba94b361aab59120a559e68a7b`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/5ef2dc5b762853540690d349c95d52a84da39bba94b361aab59120a559e68a7b) |
 <!-- /auto:hashes -->
 
 ```powershell
@@ -168,9 +168,11 @@ sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (т�
 
 Исправлен вылет при изменении профиля маршрутизации.
 
-**OpenWrt 2.3.1** · 10.10.2026
+**OpenWrt 2.3.2** · 13.10.2026
 
-- Ядро sing-box-extended скачивается из LimCoreWRT и проверяется по размеру и SHA-256.
+- Мультивыбор узлов: чекбоксы, выбор всех в открытой папке, групповая проверка задержки и скорости, перенос в папку и удаление с подтверждением.
+- Флаги в списке узлов, обзоре и окне «Лучший узел» отображаются через локальный SVG-спрайт, независимо от emoji-шрифтов Windows и темы LuCI.
+- Удалён дублирующий шрифт флагов; все изображения собраны в один файл для экономии места на роутере.
 <!-- /auto:changes -->
 
 Полная история: [Android](https://github.com/l-limon-l/LimCore-Android/blob/main/CHANGELOG.md) · [Windows](https://github.com/l-limon-l/LimCore-Desktop/blob/main/CHANGELOG.md) · [Linux](https://github.com/l-limon-l/LimCore-Linux/blob/main/CHANGELOG.md) · [OpenWrt](https://github.com/l-limon-l/LimCoreWRT/blob/main/CHANGELOG.md)
