@@ -25,7 +25,7 @@ https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
     <td align="center" width="25%">
       <h3>Android</h3>
       <a href="https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-universal.apk"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-APK-f2f2f2?style=for-the-badge&logo=android&logoColor=white&labelColor=161616" alt="Скачать APK для Android" /></a>
-      <p><b>2.1.4</b> · 09.10.2026 · 46,6 МБ<br /><sub>Android 8.0 и новее</sub></p>
+      <p><b>2.1.6</b> · 14.10.2026 · 46,6 МБ<br /><sub>Android 8.0 и новее</sub></p>
     </td>
     <td align="center" width="25%">
       <h3>Windows</h3>
@@ -131,10 +131,10 @@ wget -qO- https://raw.githubusercontent.com/l-limon-l/LimCoreWRT/main/install.sh
 | `LimCore-x86_64.AppImage` | <sub>`3a40a5226a46794782d73d6891e9a6ebff45efc7e991b6337a6baec0eea1281b`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/3a40a5226a46794782d73d6891e9a6ebff45efc7e991b6337a6baec0eea1281b) |
 | `LimCore-x86_64.deb` | <sub>`dea09ffa4cc3d0ede05c3fd4a1d1725de6467e27533c24d8efe8f652e64c28e4`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/dea09ffa4cc3d0ede05c3fd4a1d1725de6467e27533c24d8efe8f652e64c28e4) |
 | `LimCore-x86_64.rpm` | <sub>`b62930f12266b6de4e8d64bce946a31443dfea3f2da12aca7962a69162714962`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/b62930f12266b6de4e8d64bce946a31443dfea3f2da12aca7962a69162714962) |
-| `LimCore-universal.apk` | <sub>`8335167645894821ce2ad18a4cbd0b310984fbf7bed2e85837a440996f5bb839`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/8335167645894821ce2ad18a4cbd0b310984fbf7bed2e85837a440996f5bb839) |
-| `LimCore-arm64-v8a.apk` | <sub>`c28a9a27eb96d85bab5971fe0123b26f4c4d036585a642f4f167a419547eb74d`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/c28a9a27eb96d85bab5971fe0123b26f4c4d036585a642f4f167a419547eb74d) |
-| `LimCore-armeabi-v7a.apk` | <sub>`dc1a5b6e28b8367064b5fefc9299b516b96773b3f0e201a83631f0d120cffaee`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/dc1a5b6e28b8367064b5fefc9299b516b96773b3f0e201a83631f0d120cffaee) |
-| `LimCore-x86_64.apk` | <sub>`156015504afd25882622b9be6bf5bbf6b534c139ad901501978cc1a506d262a1`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/156015504afd25882622b9be6bf5bbf6b534c139ad901501978cc1a506d262a1) |
+| `LimCore-universal.apk` | <sub>`d2b3fc4445c2256404825fb562812a52d75bf60785fdcf2340bc4fd6fb0002c9`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/d2b3fc4445c2256404825fb562812a52d75bf60785fdcf2340bc4fd6fb0002c9) |
+| `LimCore-arm64-v8a.apk` | <sub>`a4297bb28497c6ec57dd912a79a1aae271a1e4cc4862d9df53c2435cf0538b46`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/a4297bb28497c6ec57dd912a79a1aae271a1e4cc4862d9df53c2435cf0538b46) |
+| `LimCore-armeabi-v7a.apk` | <sub>`da9a05ee9b628a86b22d1cd908a775bb86241a816e6fa60ddbb7e7b07218accc`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/da9a05ee9b628a86b22d1cd908a775bb86241a816e6fa60ddbb7e7b07218accc) |
+| `LimCore-x86_64.apk` | <sub>`8dfdb65b061b7403b12f61eba9b77a0f18d9707b6c91941b38de8de4c08447ae`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/8dfdb65b061b7403b12f61eba9b77a0f18d9707b6c91941b38de8de4c08447ae) |
 | `luci-app-limcore_all.apk` | <sub>`49416adbf4d395069ac37c6400955c353691d1bc54382e215de32dffed69ae48`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/49416adbf4d395069ac37c6400955c353691d1bc54382e215de32dffed69ae48) |
 | `luci-app-limcore_all.ipk` | <sub>`46c133d1c5213f3d7fe9f6a0b0dcb605956a0d68fdcb997cdc7cae1c1265d6c7`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/46c133d1c5213f3d7fe9f6a0b0dcb605956a0d68fdcb997cdc7cae1c1265d6c7) |
 | `luci-app-limcore_all-legacy.ipk` | <sub>`5ef2dc5b762853540690d349c95d52a84da39bba94b361aab59120a559e68a7b`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/5ef2dc5b762853540690d349c95d52a84da39bba94b361aab59120a559e68a7b) |
@@ -153,10 +153,9 @@ sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (т�
 ## Что нового
 
 <!-- auto:changes -->
-**Android 2.1.4** · 09.10.2026
+**Android 2.1.6** · 14.10.2026
 
-- Исправлена проверка задержки для серверов, которые не открывают сайт проверки.
-- Исправлено автопереключение серверов в балансерах.
+- Значок LimCore в быстрых настройках перерисован: теперь это смайлик «хмм» с прищуром и руками у подбородка.
 
 **Windows 2.5.9** · 12.10.2026
 
