@@ -25,7 +25,7 @@ https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
     <td align="center" width="25%">
       <h3>Android</h3>
       <a href="https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-universal.apk"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-APK-f2f2f2?style=for-the-badge&logo=android&logoColor=white&labelColor=161616" alt="Скачать APK для Android" /></a>
-      <p><b>2.1.11</b> · 16.10.2026 · 46,9 МБ<br /><sub>Android 8.0 и новее</sub></p>
+      <p><b>2.2.0</b> · 17.10.2026 · 47,0 МБ<br /><sub>Android 8.0 и новее</sub></p>
     </td>
     <td align="center" width="25%">
       <h3>Windows</h3>
@@ -54,8 +54,8 @@ https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
 |---|---|---|
 | [arm64-v8a](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-arm64-v8a.apk) | Почти все телефоны последних лет | 22,2 МБ |
 | [armeabi-v7a](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-armeabi-v7a.apk) | Старые 32-битные телефоны | 22,7 МБ |
-| [x86_64](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-x86_64.apk) | Эмуляторы и планшеты на x86 | 23,1 МБ |
-| [universal](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-universal.apk) | Любое устройство | 46,9 МБ |
+| [x86_64](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-x86_64.apk) | Эмуляторы и планшеты на x86 | 23,2 МБ |
+| [universal](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-universal.apk) | Любое устройство | 47,0 МБ |
 <!-- /auto:abis -->
 
 Не знаете, какая нужна, — берите **universal**, она работает везде.
@@ -131,10 +131,10 @@ wget -qO- https://raw.githubusercontent.com/l-limon-l/LimCoreWRT/main/install.sh
 | `LimCore-x86_64.AppImage` | <sub>`ff234aab8f43c4c3f36902c8dfe4b27421d0b84c7a2b0b24e504c10e4a8fb747`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/ff234aab8f43c4c3f36902c8dfe4b27421d0b84c7a2b0b24e504c10e4a8fb747) |
 | `LimCore-x86_64.deb` | <sub>`420d743a90afb546a5febfccaaab2c1b1239ddf0cce2e71a44d56d966563ccfe`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/420d743a90afb546a5febfccaaab2c1b1239ddf0cce2e71a44d56d966563ccfe) |
 | `LimCore-x86_64.rpm` | <sub>`a6e6d974c9a1e39415e289a55cd6c78b7580e289693b1f82f3d145352a67e8e0`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/a6e6d974c9a1e39415e289a55cd6c78b7580e289693b1f82f3d145352a67e8e0) |
-| `LimCore-universal.apk` | <sub>`8ce49621b2995520915f34d622b6b28c378e60dcbe4be4595514a56f8cafb64a`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/8ce49621b2995520915f34d622b6b28c378e60dcbe4be4595514a56f8cafb64a) |
-| `LimCore-arm64-v8a.apk` | <sub>`181d7882ca8a45d8790b330a1e19fa09471cc133c6b888e1d3ac46d44ed016fd`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/181d7882ca8a45d8790b330a1e19fa09471cc133c6b888e1d3ac46d44ed016fd) |
-| `LimCore-armeabi-v7a.apk` | <sub>`e848bfb5cc6f770509d767325b926cb4ff45a4653ecdfcf48f98e3487911ceaf`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/e848bfb5cc6f770509d767325b926cb4ff45a4653ecdfcf48f98e3487911ceaf) |
-| `LimCore-x86_64.apk` | <sub>`5027273e91aadb7f888d5d183b843b82015a4bfed026dc01c7d2a5a0d0484179`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/5027273e91aadb7f888d5d183b843b82015a4bfed026dc01c7d2a5a0d0484179) |
+| `LimCore-universal.apk` | <sub>`12c5696480bb53ae315afdca098e6a763ee98525ed383952e1bce48ea4ad0e10`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/12c5696480bb53ae315afdca098e6a763ee98525ed383952e1bce48ea4ad0e10) |
+| `LimCore-arm64-v8a.apk` | <sub>`bcbb184eaac4b0c4f03b1c13a2a12b538f6518836ee8d0a9cbf0123797fdd194`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/bcbb184eaac4b0c4f03b1c13a2a12b538f6518836ee8d0a9cbf0123797fdd194) |
+| `LimCore-armeabi-v7a.apk` | <sub>`efb0277a66e2c71c2a60dd0cecde86d5938276b4a5a3a7a007688978db184960`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/efb0277a66e2c71c2a60dd0cecde86d5938276b4a5a3a7a007688978db184960) |
+| `LimCore-x86_64.apk` | <sub>`75b608042d6fdf7fa82a8425288649cd34de2dca3bf45edfef80521986fdc951`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/75b608042d6fdf7fa82a8425288649cd34de2dca3bf45edfef80521986fdc951) |
 | `luci-app-limcore_all.apk` | <sub>`49416adbf4d395069ac37c6400955c353691d1bc54382e215de32dffed69ae48`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/49416adbf4d395069ac37c6400955c353691d1bc54382e215de32dffed69ae48) |
 | `luci-app-limcore_all.ipk` | <sub>`46c133d1c5213f3d7fe9f6a0b0dcb605956a0d68fdcb997cdc7cae1c1265d6c7`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/46c133d1c5213f3d7fe9f6a0b0dcb605956a0d68fdcb997cdc7cae1c1265d6c7) |
 | `luci-app-limcore_all-legacy.ipk` | <sub>`5ef2dc5b762853540690d349c95d52a84da39bba94b361aab59120a559e68a7b`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/5ef2dc5b762853540690d349c95d52a84da39bba94b361aab59120a559e68a7b) |
@@ -153,9 +153,15 @@ sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (т�
 ## Что нового
 
 <!-- auto:changes -->
-**Android 2.1.11** · 16.10.2026
+**Android 2.2.0** · 17.10.2026
 
-- В мем-настройках можно включить анимированный смайлик 😎 вместо щита на кнопке при подключённом VPN.
+- AntiFilter (byedpi): обход DPI по пути к серверу, в настройках туннеля.
+- Ссылки hysteria2:// и hy2:// (обфускация salamander, смена портов). В ручном вводе Hysteria2 появились пароль обфускации, смена портов и таймаут UDP.
+- Группы конфигов: свои группы для добавленных вручную серверов, серверы можно переносить между группами.
+- Android TV: приложение есть в лаунчере телевизора. С телефона можно отправить ссылку: «+» → «Отправить с телефона», отсканировать QR и вставить ссылку на открывшейся странице.
+- Прокси для приложений по умолчанию в режиме «Обход», русские приложения в нём включены сразу. Если не нужно, выключите.
+- Предупреждение о сбитых дате и времени: из-за них не подключаются VMess и REALITY.
+- Если подписка не открылась из-за сертификата, приложение предложит повторить без проверки сертификата.
 
 **Windows 2.6.0** · 16.10.2026
 
