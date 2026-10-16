@@ -25,7 +25,7 @@ https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
     <td align="center" width="25%">
       <h3>Android</h3>
       <a href="https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-universal.apk"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-APK-f2f2f2?style=for-the-badge&logo=android&logoColor=white&labelColor=161616" alt="Скачать APK для Android" /></a>
-      <p><b>2.1.10</b> · 15.10.2026 · 46,8 МБ<br /><sub>Android 8.0 и новее</sub></p>
+      <p><b>2.1.11</b> · 16.10.2026 · 46,9 МБ<br /><sub>Android 8.0 и новее</sub></p>
     </td>
     <td align="center" width="25%">
       <h3>Windows</h3>
@@ -52,10 +52,10 @@ https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
 <!-- auto:abis -->
 | Сборка | Для каких устройств | Размер |
 |---|---|---|
-| [arm64-v8a](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-arm64-v8a.apk) | Почти все телефоны последних лет | 22,1 МБ |
-| [armeabi-v7a](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-armeabi-v7a.apk) | Старые 32-битные телефоны | 22,6 МБ |
+| [arm64-v8a](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-arm64-v8a.apk) | Почти все телефоны последних лет | 22,2 МБ |
+| [armeabi-v7a](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-armeabi-v7a.apk) | Старые 32-битные телефоны | 22,7 МБ |
 | [x86_64](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-x86_64.apk) | Эмуляторы и планшеты на x86 | 23,1 МБ |
-| [universal](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-universal.apk) | Любое устройство | 46,8 МБ |
+| [universal](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-universal.apk) | Любое устройство | 46,9 МБ |
 <!-- /auto:abis -->
 
 Не знаете, какая нужна, — берите **universal**, она работает везде.
@@ -131,10 +131,10 @@ wget -qO- https://raw.githubusercontent.com/l-limon-l/LimCoreWRT/main/install.sh
 | `LimCore-x86_64.AppImage` | <sub>`3a40a5226a46794782d73d6891e9a6ebff45efc7e991b6337a6baec0eea1281b`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/3a40a5226a46794782d73d6891e9a6ebff45efc7e991b6337a6baec0eea1281b) |
 | `LimCore-x86_64.deb` | <sub>`dea09ffa4cc3d0ede05c3fd4a1d1725de6467e27533c24d8efe8f652e64c28e4`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/dea09ffa4cc3d0ede05c3fd4a1d1725de6467e27533c24d8efe8f652e64c28e4) |
 | `LimCore-x86_64.rpm` | <sub>`b62930f12266b6de4e8d64bce946a31443dfea3f2da12aca7962a69162714962`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/b62930f12266b6de4e8d64bce946a31443dfea3f2da12aca7962a69162714962) |
-| `LimCore-universal.apk` | <sub>`2a13cef7ddfd4d7e3a39ff174a9c6c5faaead293f05051f2de0df27f1372190d`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/2a13cef7ddfd4d7e3a39ff174a9c6c5faaead293f05051f2de0df27f1372190d) |
-| `LimCore-arm64-v8a.apk` | <sub>`3af8010808566ab06060ab86bb80b66b8f920ee15149b0954652785b6d392e31`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/3af8010808566ab06060ab86bb80b66b8f920ee15149b0954652785b6d392e31) |
-| `LimCore-armeabi-v7a.apk` | <sub>`a7ce9be62c5f09375de23755e4d98fc426005eaaad547920eea76b6145e5ef5a`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/a7ce9be62c5f09375de23755e4d98fc426005eaaad547920eea76b6145e5ef5a) |
-| `LimCore-x86_64.apk` | <sub>`999b00cc0f6015c58d0b4eb412fe5befcb30801018f5b99983f31c685cd7c9d7`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/999b00cc0f6015c58d0b4eb412fe5befcb30801018f5b99983f31c685cd7c9d7) |
+| `LimCore-universal.apk` | <sub>`8ce49621b2995520915f34d622b6b28c378e60dcbe4be4595514a56f8cafb64a`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/8ce49621b2995520915f34d622b6b28c378e60dcbe4be4595514a56f8cafb64a) |
+| `LimCore-arm64-v8a.apk` | <sub>`181d7882ca8a45d8790b330a1e19fa09471cc133c6b888e1d3ac46d44ed016fd`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/181d7882ca8a45d8790b330a1e19fa09471cc133c6b888e1d3ac46d44ed016fd) |
+| `LimCore-armeabi-v7a.apk` | <sub>`e848bfb5cc6f770509d767325b926cb4ff45a4653ecdfcf48f98e3487911ceaf`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/e848bfb5cc6f770509d767325b926cb4ff45a4653ecdfcf48f98e3487911ceaf) |
+| `LimCore-x86_64.apk` | <sub>`5027273e91aadb7f888d5d183b843b82015a4bfed026dc01c7d2a5a0d0484179`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/5027273e91aadb7f888d5d183b843b82015a4bfed026dc01c7d2a5a0d0484179) |
 | `luci-app-limcore_all.apk` | <sub>`49416adbf4d395069ac37c6400955c353691d1bc54382e215de32dffed69ae48`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/49416adbf4d395069ac37c6400955c353691d1bc54382e215de32dffed69ae48) |
 | `luci-app-limcore_all.ipk` | <sub>`46c133d1c5213f3d7fe9f6a0b0dcb605956a0d68fdcb997cdc7cae1c1265d6c7`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/46c133d1c5213f3d7fe9f6a0b0dcb605956a0d68fdcb997cdc7cae1c1265d6c7) |
 | `luci-app-limcore_all-legacy.ipk` | <sub>`5ef2dc5b762853540690d349c95d52a84da39bba94b361aab59120a559e68a7b`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/5ef2dc5b762853540690d349c95d52a84da39bba94b361aab59120a559e68a7b) |
@@ -153,10 +153,9 @@ sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (т�
 ## Что нового
 
 <!-- auto:changes -->
-**Android 2.1.10** · 15.10.2026
+**Android 2.1.11** · 16.10.2026
 
-- Вернулась прежняя иконка приложения и щит в уведомлении.
-- 🤔 в мем-настройках крутится плавнее.
+- В мем-настройках можно включить анимированный смайлик 😎 вместо щита на кнопке при подключённом VPN.
 
 **Windows 2.5.9** · 12.10.2026
 
