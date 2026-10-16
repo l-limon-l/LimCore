@@ -35,7 +35,7 @@ https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
     <td align="center" width="25%">
       <h3>Linux · Steam Deck</h3>
       <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/appimage/LimCore-x86_64.AppImage"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-AppImage-f2f2f2?style=for-the-badge&logo=linux&logoColor=white&labelColor=161616" alt="Скачать AppImage для Linux и Steam Deck" /></a>
-      <p><b>2.5.8</b> · 09.10.2026 · 72,1 МБ<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/deb/LimCore-x86_64.deb">.deb</a> · <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/rpm/LimCore-x86_64.rpm">.rpm</a></sub></p>
+      <p><b>2.6.0</b> · 16.10.2026 · 87,6 МБ<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/deb/LimCore-x86_64.deb">.deb</a> · <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/rpm/LimCore-x86_64.rpm">.rpm</a></sub></p>
     </td>
     <td align="center" width="25%">
       <h3>OpenWrt · роутеры</h3>
@@ -128,9 +128,9 @@ wget -qO- https://raw.githubusercontent.com/l-limon-l/LimCoreWRT/main/install.sh
 | Файл | SHA-256 | Проверка |
 |---|---|---|
 | `LimCore-Setup.exe` | <sub>`0591cec9d14db862193da3c6172b3eec40b989fe00e41d42f5e1146d5414a45a`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/0591cec9d14db862193da3c6172b3eec40b989fe00e41d42f5e1146d5414a45a) |
-| `LimCore-x86_64.AppImage` | <sub>`3a40a5226a46794782d73d6891e9a6ebff45efc7e991b6337a6baec0eea1281b`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/3a40a5226a46794782d73d6891e9a6ebff45efc7e991b6337a6baec0eea1281b) |
-| `LimCore-x86_64.deb` | <sub>`dea09ffa4cc3d0ede05c3fd4a1d1725de6467e27533c24d8efe8f652e64c28e4`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/dea09ffa4cc3d0ede05c3fd4a1d1725de6467e27533c24d8efe8f652e64c28e4) |
-| `LimCore-x86_64.rpm` | <sub>`b62930f12266b6de4e8d64bce946a31443dfea3f2da12aca7962a69162714962`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/b62930f12266b6de4e8d64bce946a31443dfea3f2da12aca7962a69162714962) |
+| `LimCore-x86_64.AppImage` | <sub>`ff234aab8f43c4c3f36902c8dfe4b27421d0b84c7a2b0b24e504c10e4a8fb747`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/ff234aab8f43c4c3f36902c8dfe4b27421d0b84c7a2b0b24e504c10e4a8fb747) |
+| `LimCore-x86_64.deb` | <sub>`420d743a90afb546a5febfccaaab2c1b1239ddf0cce2e71a44d56d966563ccfe`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/420d743a90afb546a5febfccaaab2c1b1239ddf0cce2e71a44d56d966563ccfe) |
+| `LimCore-x86_64.rpm` | <sub>`a6e6d974c9a1e39415e289a55cd6c78b7580e289693b1f82f3d145352a67e8e0`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/a6e6d974c9a1e39415e289a55cd6c78b7580e289693b1f82f3d145352a67e8e0) |
 | `LimCore-universal.apk` | <sub>`8ce49621b2995520915f34d622b6b28c378e60dcbe4be4595514a56f8cafb64a`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/8ce49621b2995520915f34d622b6b28c378e60dcbe4be4595514a56f8cafb64a) |
 | `LimCore-arm64-v8a.apk` | <sub>`181d7882ca8a45d8790b330a1e19fa09471cc133c6b888e1d3ac46d44ed016fd`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/181d7882ca8a45d8790b330a1e19fa09471cc133c6b888e1d3ac46d44ed016fd) |
 | `LimCore-armeabi-v7a.apk` | <sub>`e848bfb5cc6f770509d767325b926cb4ff45a4653ecdfcf48f98e3487911ceaf`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/e848bfb5cc6f770509d767325b926cb4ff45a4653ecdfcf48f98e3487911ceaf) |
@@ -168,9 +168,15 @@ sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (т�
 - Иконка в трее — щит: зелёный при подключении, белый без него.
 - Провайдеры подписок могут задавать режим подключения (tun-enable, proxy-enable) и список приложений для Windows (per-app-proxy-mode-windows, per-app-proxy-list-windows-add/-set).
 
-**Linux 2.5.8** · 09.10.2026
+**Linux 2.6.0** · 16.10.2026
 
-Исправлен вылет при изменении профиля маршрутизации.
+- Выбор провайдера TUN, как в Happ: Xray TUN, Sing-box или tun2proxy — в меню режима на главном экране и в дополнительных настройках. Провайдер подписки может задать его сам (tun-type, tun-mode).
+- AntiFilter (byedpi): обход DPI перед соединением с сервером, в основных настройках рядом с фрагментацией (пока в режиме системного прокси).
+- QR-код из картинки: тип «QR-код» в окне добавления, а кнопки «Вставить» понимают снимок экрана с QR-кодом.
+- Предупреждение, если на компьютере сбиты дата и время: из-за этого не подключаются серверы VMess и REALITY.
+- Ctrl + колесо мыши меняет масштаб интерфейса.
+- Иконка в трее — щит: зелёный при подключении, белый без него.
+- Провайдеры подписок могут задавать режим подключения (tun-enable, proxy-enable) и список приложений для Linux (per-app-proxy-mode-linux, per-app-proxy-list-linux-add/-set).
 
 **OpenWrt 2.3.2** · 13.10.2026
 
