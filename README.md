@@ -10,7 +10,7 @@
 [![OpenWrt](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fl-limon-l%2FLimCoreWRT%2Fmain%2Fupdate.json&query=%24.version&label=OpenWrt&logo=openwrt&logoColor=white&color=f2f2f2&labelColor=161616&style=flat-square)](#скачать)
 [![Telegram](https://img.shields.io/badge/Telegram-@LimCoreChannel-f2f2f2?style=flat-square&logo=telegram&logoColor=white&labelColor=161616)](https://t.me/LimCoreChannel)
 
-<a href="#скачать"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-f2f2f2?style=for-the-badge&labelColor=161616" alt="Скачать" /></a> <a href="#возможности"><img src="https://img.shields.io/badge/%D0%92%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8-f2f2f2?style=for-the-badge&labelColor=161616" alt="Возможности" /></a> <a href="#интерфейс"><img src="https://img.shields.io/badge/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81-f2f2f2?style=for-the-badge&labelColor=161616" alt="Интерфейс" /></a> <a href="#проверка-файлов"><img src="https://img.shields.io/badge/%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0%20%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2-f2f2f2?style=for-the-badge&labelColor=161616" alt="Проверка файлов" /></a> <a href="#что-нового"><img src="https://img.shields.io/badge/%D0%A7%D1%82%D0%BE%20%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-f2f2f2?style=for-the-badge&labelColor=161616" alt="Что нового" /></a> <a href="#поддержать-проект"><img src="https://img.shields.io/badge/%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-f2f2f2?style=for-the-badge&labelColor=161616" alt="Поддержать" /></a>
+<a href="#скачать"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-f2f2f2?style=for-the-badge&labelColor=161616" alt="Скачать" /></a> <a href="#возможности"><img src="https://img.shields.io/badge/%D0%92%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8-f2f2f2?style=for-the-badge&labelColor=161616" alt="Возможности" /></a> <a href="#интерфейс"><img src="https://img.shields.io/badge/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81-f2f2f2?style=for-the-badge&labelColor=161616" alt="Интерфейс" /></a> <a href="#проверка-файлов"><img src="https://img.shields.io/badge/%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0%20%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2-f2f2f2?style=for-the-badge&labelColor=161616" alt="Проверка файлов" /></a> <a href="#поддержать-проект"><img src="https://img.shields.io/badge/%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-f2f2f2?style=for-the-badge&labelColor=161616" alt="Поддержать" /></a>
 
 </div>
 
@@ -148,37 +148,6 @@ sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (т�
 ```
 
 Таблица обновляется автоматически из `update.json` приложений: [Android](https://github.com/l-limon-l/LimCore-Android/blob/main/update.json) · [Windows](https://github.com/l-limon-l/LimCore-Desktop/blob/main/update.json) · [Linux](https://github.com/l-limon-l/LimCore-Linux/blob/main/update.json) · [OpenWrt](https://github.com/l-limon-l/LimCoreWRT/blob/main/update.json).
-
-## Что нового
-
-<!-- auto:changes -->
-**Android 2.2.3** · 17.10.2026
-
-- Окно загрузки обновления теперь можно скрыть кнопкой «Скрыть» и пользоваться приложением, пока новая версия скачивается. Ход загрузки виден в «О приложении» → «Проверить обновления», нажатие на эту строку возвращает окно. После загрузки система, как и раньше, попросит подтвердить установку.
-
-**Windows 2.6.0** · 16.10.2026
-
-- Выбор провайдера TUN, как в Happ: Xray TUN, Sing-box или tun2proxy — в меню режима на главном экране и в дополнительных настройках. Провайдер подписки может задать его сам (tun-type, tun-mode).
-- «Прямое подключение для выбранных приложений» через драйвер ядра, как в Happ: трафик этих программ вообще не заходит в туннель. Включается в «Настройки прокси для приложений» → «Через драйвер ядра».
-- AntiFilter (byedpi): обход DPI перед соединением с сервером, в основных настройках рядом с фрагментацией.
-- QR-код из картинки: тип «QR-код» в окне добавления, а кнопки «Вставить» понимают снимок экрана с QR-кодом.
-- Предупреждение, если на компьютере сбиты дата и время: из-за этого не подключаются серверы VMess и REALITY.
-- Ctrl + колесо мыши меняет масштаб интерфейса.
-- Иконка в трее — щит: зелёный при подключении, белый без него.
-- Провайдеры подписок могут задавать режим подключения (tun-enable, proxy-enable) и список приложений для Windows (per-app-proxy-mode-windows, per-app-proxy-list-windows-add/-set).
-
-**Linux 2.6.1** · 17.10.2026
-
-- Окно загрузки обновления теперь можно скрыть кнопкой «Скрыть» и пользоваться LimCore, пока новая версия скачивается. Ход загрузки виден в разделе «О программе», после загрузки приложение перезапустится как обычно. Если загрузка не удалась, окно появится снова.
-
-**OpenWrt 2.3.2** · 13.10.2026
-
-- Мультивыбор узлов: чекбоксы, выбор всех в открытой папке, групповая проверка задержки и скорости, перенос в папку и удаление с подтверждением.
-- Флаги в списке узлов, обзоре и окне «Лучший узел» отображаются через локальный SVG-спрайт, независимо от emoji-шрифтов Windows и темы LuCI.
-- Удалён дублирующий шрифт флагов; все изображения собраны в один файл для экономии места на роутере.
-<!-- /auto:changes -->
-
-Полная история: [Android](https://github.com/l-limon-l/LimCore-Android/blob/main/CHANGELOG.md) · [Windows](https://github.com/l-limon-l/LimCore-Desktop/blob/main/CHANGELOG.md) · [Linux](https://github.com/l-limon-l/LimCore-Linux/blob/main/CHANGELOG.md) · [OpenWrt](https://github.com/l-limon-l/LimCoreWRT/blob/main/CHANGELOG.md)
 
 ## Поддержать проект
 

@@ -56,7 +56,6 @@ const date = (iso) => iso.split('-').reverse().join('.');
 const badge = (label, message, logo) =>
   `https://img.shields.io/badge/${esc(label)}-${esc(message)}-f2f2f2?style=for-the-badge&logo=${logo}&logoColor=white&labelColor=161616`;
 const esc = (s) => encodeURIComponent(s.replace(/-/g, '--').replace(/_/g, '__'));
-const notes = (n) => n.ru.split('\n').map((l) => l.trim()).filter(Boolean).join('\n');
 
 const blocks = {
   download: `
@@ -92,23 +91,6 @@ const blocks = {
 | [armeabi-v7a](${apks[2].url}) | Старые 32-битные телефоны | ${mb(apks[2].size)} |
 | [x86_64](${apks[3].url}) | Эмуляторы и планшеты на x86 | ${mb(apks[3].size)} |
 | [universal](${apks[0].url}) | Любое устройство | ${mb(apks[0].size)} |
-`,
-  changes: `
-**Android ${android.versionName}** · ${date(android.date)}
-
-${notes(android.notes)}
-
-**Windows ${windows.version}** · ${date(windows.date)}
-
-${notes(windows.notes)}
-
-**Linux ${linux.version}** · ${date(linux.date)}
-
-${notes(linux.notes)}
-
-**OpenWrt ${wrt.version}** · ${date(wrt.date)}
-
-${notes(wrt.notes)}
 `,
   install: `
 \`\`\`sh
