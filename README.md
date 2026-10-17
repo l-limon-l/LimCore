@@ -11,7 +11,7 @@
 [![Xray-core](https://img.shields.io/badge/ядро-Xray--core-f2f2f2?style=flat-square&labelColor=161616)](https://github.com/XTLS/Xray-core)
 [![Telegram](https://img.shields.io/badge/Telegram-@LimCoreChannel-f2f2f2?style=flat-square&logo=telegram&logoColor=white&labelColor=161616)](https://t.me/LimCoreChannel)
 
-[Скачать](#скачать) · [Возможности](#возможности) · [Интерфейс](#интерфейс) · [Проверка файлов](#проверка-файлов) · [Что нового](#что-нового)
+[Скачать](#скачать) · [Возможности](#возможности) · [Интерфейс](#интерфейс) · [Проверка файлов](#проверка-файлов) · [Что нового](#что-нового) · [Поддержать](#поддержать-проект)
 
 </div>
 
@@ -186,6 +186,37 @@ sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (т�
 <!-- /auto:changes -->
 
 Полная история: [Android](https://github.com/l-limon-l/LimCore-Android/blob/main/CHANGELOG.md) · [Windows](https://github.com/l-limon-l/LimCore-Desktop/blob/main/CHANGELOG.md) · [Linux](https://github.com/l-limon-l/LimCore-Linux/blob/main/CHANGELOG.md) · [OpenWrt](https://github.com/l-limon-l/LimCoreWRT/blob/main/CHANGELOG.md)
+
+## Поддержать проект
+
+Если LimCore вам пригодился, поддержать разработку можно любым удобным способом:
+
+<table>
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <h3>₽ Рубли</h3>
+      <a href="https://web.tribute.tg/d/Sob"><img src="https://img.shields.io/badge/%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-%E2%82%BD-f2f2f2?style=for-the-badge&logo=telegram&logoColor=white&labelColor=161616" alt="Поддержать проект в рублях" /></a>
+      <p><sub>Через Tribute</sub></p>
+    </td>
+    <td align="center" width="50%" valign="top">
+      <h3>$ Доллары</h3>
+      <a href="https://web.tribute.tg/d/Sod"><img src="https://img.shields.io/badge/Donate-%24-f2f2f2?style=for-the-badge&logo=telegram&logoColor=white&labelColor=161616" alt="Поддержать проект в долларах" /></a>
+      <p><sub>Через Tribute</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <h3>Gram (бывший TON)</h3>
+      <p><code>UQBIyejAbvFMPGa7ZPtgTAl8_CVLUu7HxS9MaqXxp7tnFy98</code></p>
+      <p><sub>Кошелёк Gram</sub></p>
+    </td>
+    <td align="center" valign="top">
+      <h3>USDT</h3>
+      <p><code>UQBIyejAbvFMPGa7ZPtgTAl8_CVLUu7HxS9MaqXxp7tnFy98</code></p>
+      <p><sub>Сеть Gram, другие сети не подходят</sub></p>
+    </td>
+  </tr>
+</table>
 
 ## Важно
 
