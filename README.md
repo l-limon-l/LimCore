@@ -29,12 +29,12 @@ https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
     <td align="center" width="25%">
       <h3>Windows</h3>
       <a href="https://github.com/l-limon-l/LimCore-Desktop/raw/main/installer/LimCore-Setup.exe"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Setup.exe-f2f2f2?style=for-the-badge&logo=windows11&logoColor=white&labelColor=161616" alt="Скачать установщик для Windows" /></a>
-      <p><b>2.6.2</b> · 17.10.2026 · 55,8 МБ<br /><sub>Установщик, обновляется сам</sub></p>
+      <p><b>2.6.3</b> · 19.10.2026 · 56,9 МБ<br /><sub>Установщик, обновляется сам</sub></p>
     </td>
     <td align="center" width="25%">
       <h3>Linux · Steam Deck</h3>
       <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/appimage/LimCore-x86_64.AppImage"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-AppImage-f2f2f2?style=for-the-badge&logo=linux&logoColor=white&labelColor=161616" alt="Скачать AppImage для Linux и Steam Deck" /></a>
-      <p><b>2.6.2</b> · 17.10.2026 · 87,6 МБ<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/deb/LimCore-x86_64.deb">.deb</a> · <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/rpm/LimCore-x86_64.rpm">.rpm</a></sub></p>
+      <p><b>2.6.3</b> · 19.10.2026 · 88,7 МБ<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/deb/LimCore-x86_64.deb">.deb</a> · <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/rpm/LimCore-x86_64.rpm">.rpm</a></sub></p>
     </td>
     <td align="center" width="25%">
       <h3>OpenWrt · роутеры</h3>
@@ -126,10 +126,10 @@ wget -qO- https://raw.githubusercontent.com/l-limon-l/LimCoreWRT/main/install.sh
 <!-- auto:hashes -->
 | Файл | SHA-256 | Проверка |
 |---|---|---|
-| `LimCore-Setup.exe` | <sub>`2a05d5563fe684aef1f6579ecb47f5a865fbe7c16c97bed807038f1a33daadf4`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/2a05d5563fe684aef1f6579ecb47f5a865fbe7c16c97bed807038f1a33daadf4) |
-| `LimCore-x86_64.AppImage` | <sub>`ccefdf9121ad69253c44ef1863d719ccb735d5ceb9f2e815e0719fa8ede40384`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/ccefdf9121ad69253c44ef1863d719ccb735d5ceb9f2e815e0719fa8ede40384) |
-| `LimCore-x86_64.deb` | <sub>`9466fec44e2efd97ea644d61bf16cf1228237bd8e85df8dd467fc2908c763663`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/9466fec44e2efd97ea644d61bf16cf1228237bd8e85df8dd467fc2908c763663) |
-| `LimCore-x86_64.rpm` | <sub>`1fcf53901ad2b94e09fcb5d2d0f4b68d38b469268a4e0d663df31294ef1c5faf`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/1fcf53901ad2b94e09fcb5d2d0f4b68d38b469268a4e0d663df31294ef1c5faf) |
+| `LimCore-Setup.exe` | <sub>`bac97a89e06d4d4823217d9b4bdb930f8cf6b50a1750eaa55d1b34680fa27c62`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/bac97a89e06d4d4823217d9b4bdb930f8cf6b50a1750eaa55d1b34680fa27c62) |
+| `LimCore-x86_64.AppImage` | <sub>`394851e4d9f483301d5151e0d4a55228bfde34e46ad2fe03fa75f565114cd4d6`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/394851e4d9f483301d5151e0d4a55228bfde34e46ad2fe03fa75f565114cd4d6) |
+| `LimCore-x86_64.deb` | <sub>`11102e9a49f3a5259f4ea0d35b254c7e881b46493f5b5759003085cb55261015`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/11102e9a49f3a5259f4ea0d35b254c7e881b46493f5b5759003085cb55261015) |
+| `LimCore-x86_64.rpm` | <sub>`cef997075f653e1cee2cd2d82108265e7246eb801828b746d15c4f426293d625`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/cef997075f653e1cee2cd2d82108265e7246eb801828b746d15c4f426293d625) |
 | `LimCore-universal.apk` | <sub>`d939d2b3719a5edbb234153d10ff61cf9bf79d49ee4da19416fb9dc5dfa6d6dc`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/d939d2b3719a5edbb234153d10ff61cf9bf79d49ee4da19416fb9dc5dfa6d6dc) |
 | `LimCore-arm64-v8a.apk` | <sub>`a2e8f3a64d2439ad985f7798110426815f43b4ca9a5d2b51f067c5f480b837bc`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/a2e8f3a64d2439ad985f7798110426815f43b4ca9a5d2b51f067c5f480b837bc) |
 | `LimCore-armeabi-v7a.apk` | <sub>`f022e4973e5326848228daa153b9227b7e04e23c23f23da1e23ff611f4f45df7`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/f022e4973e5326848228daa153b9227b7e04e23c23f23da1e23ff611f4f45df7) |
