@@ -48,7 +48,7 @@ const wrtPackages = [
   size: wrt.packages[kind].size,
   sha256: wrt.packages[kind].sha256,
 }));
-const apks = ['universal', 'arm64-v8a', 'armeabi-v7a', 'x86_64'].map(apk);
+const apks = ['universal'].map(apk);
 const universal = apks[0];
 
 const mb = (bytes) => `${(bytes / 1048576).toFixed(1).replace('.', ',')} МБ`;
@@ -83,14 +83,6 @@ const blocks = {
     </td>
   </tr>
 </table>
-`,
-  abis: `
-| Сборка | Для каких устройств | Размер |
-|---|---|---|
-| [arm64-v8a](${apks[1].url}) | Почти все телефоны последних лет | ${mb(apks[1].size)} |
-| [armeabi-v7a](${apks[2].url}) | Старые 32-битные телефоны | ${mb(apks[2].size)} |
-| [x86_64](${apks[3].url}) | Эмуляторы и планшеты на x86 | ${mb(apks[3].size)} |
-| [universal](${apks[0].url}) | Любое устройство | ${mb(apks[0].size)} |
 `,
   install: `
 \`\`\`sh

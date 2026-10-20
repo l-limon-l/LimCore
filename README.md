@@ -45,21 +45,7 @@ https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
 </table>
 <!-- /auto:download -->
 
-<details>
-<summary><b>Сборки под конкретный процессор</b> — меньше по размеру</summary>
-
-<!-- auto:abis -->
-| Сборка | Для каких устройств | Размер |
-|---|---|---|
-| [arm64-v8a](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-arm64-v8a.apk) | Почти все телефоны последних лет | 22,2 МБ |
-| [armeabi-v7a](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-armeabi-v7a.apk) | Старые 32-битные телефоны | 22,7 МБ |
-| [x86_64](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-x86_64.apk) | Эмуляторы и планшеты на x86 | 23,2 МБ |
-| [universal](https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-universal.apk) | Любое устройство | 47,1 МБ |
-<!-- /auto:abis -->
-
-Не знаете, какая нужна, — берите **universal**, она работает везде.
-
-</details>
+**Android:** один universal APK для arm64-v8a, armeabi-v7a и x86_64.
 
 **Установка на Android:** скачайте APK, откройте его и разрешите установку из этого источника, если телефон спросит.
 **Установка на Linux и Steam Deck:** скачайте AppImage, разрешите его запуск (Свойства → Права → Исполняемый) и откройте: запустится установщик. На Steam Deck установка идёт в режиме рабочего стола; для службы TUN нужен пароль пользователя, его задают в Konsole командой `passwd`. После установки LimCore появляется в библиотеке Steam и работает в игровом режиме.
@@ -131,9 +117,6 @@ wget -qO- https://raw.githubusercontent.com/l-limon-l/LimCoreWRT/main/install.sh
 | `LimCore-x86_64.deb` | <sub>`354eca88aa644d0073ed1fa338c02e825facff5aa4a14a369a61432aa6e45922`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/354eca88aa644d0073ed1fa338c02e825facff5aa4a14a369a61432aa6e45922) |
 | `LimCore-x86_64.rpm` | <sub>`3a163cf5b1f4852fcee2078f18d9df37fe5b40dee83c724eebabd3feac805dfc`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/3a163cf5b1f4852fcee2078f18d9df37fe5b40dee83c724eebabd3feac805dfc) |
 | `LimCore-universal.apk` | <sub>`b95363cc8ed711456a70d5b229326b5c5db3f3c47b13cc0099a4c200dc3b16e1`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/b95363cc8ed711456a70d5b229326b5c5db3f3c47b13cc0099a4c200dc3b16e1) |
-| `LimCore-arm64-v8a.apk` | <sub>`d491af623784ba464b976f0ee9c4fb375feeb3552804cdb5b70988cb34a3eb53`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/d491af623784ba464b976f0ee9c4fb375feeb3552804cdb5b70988cb34a3eb53) |
-| `LimCore-armeabi-v7a.apk` | <sub>`649ddf0ca7ae63fbfd0396e40aa37ec783610303bca325f2d2e8232c95d27b7d`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/649ddf0ca7ae63fbfd0396e40aa37ec783610303bca325f2d2e8232c95d27b7d) |
-| `LimCore-x86_64.apk` | <sub>`cfb27081a93c0d07529c3e31d61c4a3abb7d25a719d510ead288bb6d9f2bed52`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/cfb27081a93c0d07529c3e31d61c4a3abb7d25a719d510ead288bb6d9f2bed52) |
 | `luci-app-limcore_all.apk` | <sub>`49416adbf4d395069ac37c6400955c353691d1bc54382e215de32dffed69ae48`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/49416adbf4d395069ac37c6400955c353691d1bc54382e215de32dffed69ae48) |
 | `luci-app-limcore_all.ipk` | <sub>`46c133d1c5213f3d7fe9f6a0b0dcb605956a0d68fdcb997cdc7cae1c1265d6c7`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/46c133d1c5213f3d7fe9f6a0b0dcb605956a0d68fdcb997cdc7cae1c1265d6c7) |
 | `luci-app-limcore_all-legacy.ipk` | <sub>`5ef2dc5b762853540690d349c95d52a84da39bba94b361aab59120a559e68a7b`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/5ef2dc5b762853540690d349c95d52a84da39bba94b361aab59120a559e68a7b) |

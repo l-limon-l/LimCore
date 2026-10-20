@@ -34,7 +34,7 @@ const files = [
     url: `${RAW}/LimCoreWRT/main/${wrt.packages[kind].file}`,
     sha256: wrt.packages[kind].sha256,
   })),
-  ...['universal', 'arm64-v8a', 'armeabi-v7a', 'x86_64'].map((abi) => ({
+  ...['universal'].map((abi) => ({
     name: `LimCore-${abi}.apk`,
     url: `${RAW}/LimCore-Android/main/${android.apks[abi].file}`,
     sha256: android.apks[abi].sha256,
