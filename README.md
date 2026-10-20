@@ -130,7 +130,7 @@ Get-FileHash .\LimCore-Setup.exe -Algorithm SHA256   # Windows
 sha256sum LimCore-x86_64.AppImage                    # Linux, macOS, Termux (так же .deb и .rpm)
 ```
 
-Таблица обновляется автоматически из `update.json` приложений: [Android](https://github.com/l-limon-l/LimCore-Android/blob/main/update.json) · [Windows](https://github.com/l-limon-l/LimCore-Desktop/blob/main/update.json) · [Linux](https://github.com/l-limon-l/LimCore-Linux/blob/main/update.json) · [OpenWrt](https://github.com/l-limon-l/LimCoreWRT/blob/main/update.json).
+Таблица обновляется при публикации из `update.json` приложений: [Android](https://github.com/l-limon-l/LimCore-Android/blob/main/update.json) · [Windows](https://github.com/l-limon-l/LimCore-Desktop/blob/main/update.json) · [Linux](https://github.com/l-limon-l/LimCore-Linux/blob/main/update.json) · [OpenWrt](https://github.com/l-limon-l/LimCoreWRT/blob/main/update.json).
 
 ## Поддержать проект
 
