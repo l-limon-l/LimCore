@@ -34,7 +34,7 @@ https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
     <td align="center" width="25%">
       <h3>Linux · Steam Deck</h3>
       <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/appimage/LimCore-x86_64.AppImage"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-AppImage-f2f2f2?style=for-the-badge&logo=linux&logoColor=white&labelColor=161616" alt="Скачать AppImage для Linux и Steam Deck" /></a>
-      <p><b>2.6.8</b> · 21.10.2026 · 88,7 МБ<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/deb/LimCore-x86_64.deb">.deb</a> · <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/rpm/LimCore-x86_64.rpm">.rpm</a></sub></p>
+      <p><b>2.6.9</b> · 22.10.2026 · 88,7 МБ<br /><sub>SteamOS, Arch, Fedora, Ubuntu 22.04 и новее</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/deb/LimCore-x86_64.deb">.deb</a> · <a href="https://github.com/l-limon-l/LimCore-Linux/raw/main/rpm/LimCore-x86_64.rpm">.rpm</a></sub></p>
     </td>
     <td align="center" width="25%">
       <h3>OpenWrt · роутеры</h3>
@@ -113,9 +113,9 @@ wget -qO- https://raw.githubusercontent.com/l-limon-l/LimCoreWRT/main/install.sh
 | Файл | SHA-256 | Проверка |
 |---|---|---|
 | `LimCore-Setup.exe` | <sub>`482ced08647788232f0cfbe0ba1a98cba11e741fec9ac59d2185f9a5b47dc0b5`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/482ced08647788232f0cfbe0ba1a98cba11e741fec9ac59d2185f9a5b47dc0b5) |
-| `LimCore-x86_64.AppImage` | <sub>`8c15a4dbce490f22e2f1562a4b7b9348c743cf6ebaae8cf0f0784eba3dc48db7`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/8c15a4dbce490f22e2f1562a4b7b9348c743cf6ebaae8cf0f0784eba3dc48db7) |
-| `LimCore-x86_64.deb` | <sub>`ba377e9377330cc15d6250910720d2d982469994e1937f2d6dac245e8a108c54`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/ba377e9377330cc15d6250910720d2d982469994e1937f2d6dac245e8a108c54) |
-| `LimCore-x86_64.rpm` | <sub>`7f02051fb4b8ff6c8a072b12facd0eaed0443295cc7fa3fa3abb4e5919378b22`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/7f02051fb4b8ff6c8a072b12facd0eaed0443295cc7fa3fa3abb4e5919378b22) |
+| `LimCore-x86_64.AppImage` | <sub>`564c803d660568b6b69d3e30244deadc88d4af39925cbd6dbb6bf1bb7eade34e`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/564c803d660568b6b69d3e30244deadc88d4af39925cbd6dbb6bf1bb7eade34e) |
+| `LimCore-x86_64.deb` | <sub>`d7f2221357a7c7b791cfe5d42c1b28236490981337e6e994ea08cb8a873817f7`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/d7f2221357a7c7b791cfe5d42c1b28236490981337e6e994ea08cb8a873817f7) |
+| `LimCore-x86_64.rpm` | <sub>`9b969ae785669f13f24bd101db6b260bc8e73800da4b8a9c3b0cd56bd7fa7f86`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/9b969ae785669f13f24bd101db6b260bc8e73800da4b8a9c3b0cd56bd7fa7f86) |
 | `LimCore-universal.apk` | <sub>`5566d065482c6b6108dc4fb349fdd7591b0adef5e72884c5dc5d63ea6b36924a`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/5566d065482c6b6108dc4fb349fdd7591b0adef5e72884c5dc5d63ea6b36924a) |
 | `luci-app-limcore_all.apk` | <sub>`0d6ca898825357f7907eeac2463fb7dded7236b031b44622feab75d54252f3ab`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/0d6ca898825357f7907eeac2463fb7dded7236b031b44622feab75d54252f3ab) |
 | `luci-app-limcore_all.ipk` | <sub>`5e757834813ee2f2a20d21fba8fd5e9a630b7fa945157b57729aaf0800613115`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/5e757834813ee2f2a20d21fba8fd5e9a630b7fa945157b57729aaf0800613115) |
