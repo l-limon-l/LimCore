@@ -39,7 +39,7 @@ https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
     <td align="center" width="25%">
       <h3>OpenWrt · роутеры</h3>
       <a href="#установка-на-роутер"><img src="https://img.shields.io/badge/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-install.sh-f2f2f2?style=for-the-badge&logo=openwrt&logoColor=white&labelColor=161616" alt="Установить LimCore на роутер с OpenWrt" /></a>
-      <p><b>2.3.6</b> · 22.10.2026 · 0,3 МБ<br /><sub>OpenWrt 23.05 и новее, LuCI</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all.apk">.apk</a> · <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all.ipk">.ipk</a> · <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all-legacy.ipk">-legacy.ipk</a></sub></p>
+      <p><b>2.3.7</b> · 22.10.2026 · 0,3 МБ<br /><sub>OpenWrt 23.05 и новее, LuCI</sub><br /><sub>Пакеты: <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all.apk">.apk</a> · <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all.ipk">.ipk</a> · <a href="https://github.com/l-limon-l/LimCoreWRT/raw/main/packages/luci-app-limcore_all-legacy.ipk">-legacy.ipk</a></sub></p>
     </td>
   </tr>
 </table>
@@ -117,9 +117,9 @@ wget -qO- https://raw.githubusercontent.com/l-limon-l/LimCoreWRT/main/install.sh
 | `LimCore-x86_64.deb` | <sub>`10bf5a0c4b18633814ee4d1883662c4ad02f013dfe5130d6d25d79b0ddc87d5b`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/10bf5a0c4b18633814ee4d1883662c4ad02f013dfe5130d6d25d79b0ddc87d5b) |
 | `LimCore-x86_64.rpm` | <sub>`479e2ec5d006cb9b7d3a746b8123b11de3706507e73214e5282ba2a29c820a35`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/479e2ec5d006cb9b7d3a746b8123b11de3706507e73214e5282ba2a29c820a35) |
 | `LimCore-universal.apk` | <sub>`d347a30fbc9f5c0dc8d83d9f1a161605541fe477f06bf77421d7a9b5ecd6e5ac`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/d347a30fbc9f5c0dc8d83d9f1a161605541fe477f06bf77421d7a9b5ecd6e5ac) |
-| `luci-app-limcore_all.apk` | <sub>`69215964cfb37a62f9e01d3e193e326a0195d900699eaf20d614bc29e3cc0ede`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/69215964cfb37a62f9e01d3e193e326a0195d900699eaf20d614bc29e3cc0ede) |
-| `luci-app-limcore_all.ipk` | <sub>`a79f9716999a85cfaf08df24f794f1f26b42e0482480f19b51c24df4ba662cc3`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/a79f9716999a85cfaf08df24f794f1f26b42e0482480f19b51c24df4ba662cc3) |
-| `luci-app-limcore_all-legacy.ipk` | <sub>`5d4bab00e373cb338b12e0992c05a40ac6ca39a3e05c711659dabc21bc623fea`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/5d4bab00e373cb338b12e0992c05a40ac6ca39a3e05c711659dabc21bc623fea) |
+| `luci-app-limcore_all.apk` | <sub>`350e9e16f0aaec0af69d05a0898322b54f674d50eba2a3588d454aeb2c2b270c`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/350e9e16f0aaec0af69d05a0898322b54f674d50eba2a3588d454aeb2c2b270c) |
+| `luci-app-limcore_all.ipk` | <sub>`b55cc11bcfcb190128a3c24b47f83d86c116e3be0212b95b6827e45c022ddb62`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/b55cc11bcfcb190128a3c24b47f83d86c116e3be0212b95b6827e45c022ddb62) |
+| `luci-app-limcore_all-legacy.ipk` | <sub>`a32cac4d7bacc2e73764ea9fd79554a44276ad8cbcad94876fbdfcf9c7d93d51`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/a32cac4d7bacc2e73764ea9fd79554a44276ad8cbcad94876fbdfcf9c7d93d51) |
 <!-- /auto:hashes -->
 
 ```powershell
