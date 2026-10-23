@@ -24,7 +24,7 @@ https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
     <td align="center" width="25%">
       <h3>Android</h3>
       <a href="https://github.com/l-limon-l/LimCore-Android/raw/main/apk/LimCore-universal.apk"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-APK-f2f2f2?style=for-the-badge&logo=android&logoColor=white&labelColor=161616" alt="Скачать APK для Android" /></a>
-      <p><b>2.3.3</b> · 22.10.2026 · 47,1 МБ<br /><sub>Android 8.0 и новее</sub></p>
+      <p><b>2.3.4</b> · 23.10.2026 · 47,1 МБ<br /><sub>Android 8.0 и новее</sub></p>
     </td>
     <td align="center" width="25%">
       <h3>Windows</h3>
@@ -116,7 +116,7 @@ wget -qO- https://raw.githubusercontent.com/l-limon-l/LimCoreWRT/main/install.sh
 | `LimCore-x86_64.AppImage` | <sub>`6998fded10f4e22787359cdbbe4652fb27365b515a775392587183f8b3a54efe`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/6998fded10f4e22787359cdbbe4652fb27365b515a775392587183f8b3a54efe) |
 | `LimCore-x86_64.deb` | <sub>`e51cc57db2cdcdc44b9a3b8ad3520a06c4c6a92ca8165dc6b8a6c4a7efd93384`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/e51cc57db2cdcdc44b9a3b8ad3520a06c4c6a92ca8165dc6b8a6c4a7efd93384) |
 | `LimCore-x86_64.rpm` | <sub>`397a83339775f7621b88e9a2aaf76c93762d64c86026aca9f3eb2a2d528e28b5`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/397a83339775f7621b88e9a2aaf76c93762d64c86026aca9f3eb2a2d528e28b5) |
-| `LimCore-universal.apk` | <sub>`542d5dfd1b7f764e4e916239c84ddfc4b8b0452472f7eb29a59be9c70b5435c5`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/542d5dfd1b7f764e4e916239c84ddfc4b8b0452472f7eb29a59be9c70b5435c5) |
+| `LimCore-universal.apk` | <sub>`07af1bf11458ae38761680c282581342904ba7585ec6d44a24a3bc3ce1978853`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/07af1bf11458ae38761680c282581342904ba7585ec6d44a24a3bc3ce1978853) |
 | `luci-app-limcore_all.apk` | <sub>`63b1d9be993acd9de021635b0fe85b9d4336f93ecb3c3a6772c4359b04d2ff48`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/63b1d9be993acd9de021635b0fe85b9d4336f93ecb3c3a6772c4359b04d2ff48) |
 | `luci-app-limcore_all.ipk` | <sub>`4a286c979f1d300cc209eff338dccc41ebbd4c5a85171808353cfd4ce3729bb8`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/4a286c979f1d300cc209eff338dccc41ebbd4c5a85171808353cfd4ce3729bb8) |
 | `luci-app-limcore_all-legacy.ipk` | <sub>`a542b1abbb473e33028a62b8dcfe45c1f20f655858e122ac5d017b363f342fa8`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/a542b1abbb473e33028a62b8dcfe45c1f20f655858e122ac5d017b363f342fa8) |
