@@ -29,7 +29,7 @@ https://github.com/user-attachments/assets/ca1b69c9-05c6-4086-bf7d-161719925178
     <td align="center" width="25%">
       <h3>Windows</h3>
       <a href="https://github.com/l-limon-l/LimCore-Desktop/raw/main/installer/LimCore-Setup.exe"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Setup.exe-f2f2f2?style=for-the-badge&logo=windows11&logoColor=white&labelColor=161616" alt="Скачать установщик для Windows" /></a>
-      <p><b>2.6.15</b> · 23.10.2026 · 57,1 МБ<br /><sub>Установщик, обновляется сам</sub></p>
+      <p><b>2.6.16</b> · 24.10.2026 · 57,1 МБ<br /><sub>Установщик, обновляется сам</sub></p>
     </td>
     <td align="center" width="25%">
       <h3>Linux · Steam Deck</h3>
@@ -112,7 +112,7 @@ wget -qO- https://raw.githubusercontent.com/l-limon-l/LimCoreWRT/main/install.sh
 <!-- auto:hashes -->
 | Файл | SHA-256 | Проверка |
 |---|---|---|
-| `LimCore-Setup.exe` | <sub>`37d8224de53a60e8cf7d57ddc2cf686f17fd4054a237556d7d8d627600d662f8`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/37d8224de53a60e8cf7d57ddc2cf686f17fd4054a237556d7d8d627600d662f8) |
+| `LimCore-Setup.exe` | <sub>`7a7df6209f1aad37d76ef7b7b0b558443f6e23afda84c19392864138d8c8c57e`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/7a7df6209f1aad37d76ef7b7b0b558443f6e23afda84c19392864138d8c8c57e) |
 | `LimCore-x86_64.AppImage` | <sub>`315f06e65e6a97d81622b4b0bd64051df981c11765596efe2d711f5a030131d4`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/315f06e65e6a97d81622b4b0bd64051df981c11765596efe2d711f5a030131d4) |
 | `LimCore-x86_64.deb` | <sub>`050849e944cd928575878a6a29d45ed5bf5881fad7dd435d65201276234508d1`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/050849e944cd928575878a6a29d45ed5bf5881fad7dd435d65201276234508d1) |
 | `LimCore-x86_64.rpm` | <sub>`633c666b8fc1b862bc294716e69239b3d7838a1dc05137c17a84a7b7ecc7dc70`</sub> | [VirusTotal](https://www.virustotal.com/gui/file/633c666b8fc1b862bc294716e69239b3d7838a1dc05137c17a84a7b7ecc7dc70) |
